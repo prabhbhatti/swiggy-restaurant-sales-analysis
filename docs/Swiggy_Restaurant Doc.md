@@ -6,14 +6,14 @@ This section contains the full SQL workflow, written in T-SQL for SQL Server. It
 
 | # | Section | Contents |
 |:-:|---------|----------|
-| 🧹 **A** | [Data Validation](#a-data-validation) | [Null Check](#1-null-check) · [Blank / Empty Check](#2-blank-or-empty-string-check) · [Duplicate Check](#3-duplicate-records-check) · [Delete Duplicates](#4-delete-duplicate-records) |
-| ⭐ **B** | [Star Schema Creation](#b-star-schema-creation) | [Dimension Tables](#1-dimension-tables) · [Fact Table](#2-fact-table) |
-| 📥 **C** | [Loading Data](#c-loading-data) | [Populate Dimensions](#1-populate-dimension-tables) · [Populate Fact Table](#2-populate-fact-table) |
-| 📊 **D** | [KPIs](#d-kpis) | [Total Orders](#1-total-orders) · [Total Revenue](#2-total-revenue-inr-million) · [Avg Dish Price](#3-average-dish-price-inr) · [Avg Rating](#4-average-rating) |
-| 📅 **E** | [Time-Based Trends](#e-time-based-trends) | [Monthly](#1-monthly-order-trends) · [Quarterly](#2-quarterly-trends) · [Yearly](#3-yearly-trends) · [Day of Week](#4-orders-by-day-of-the-week) |
-| 📍 **F** | [Location Analysis](#f-location-analysis) | [Top 10 Cities](#1-top-10-cities-by-order-volume) · [Revenue by State](#2-revenue-contribution-by-state) |
-| 🍜 **G** | [Food Performance](#g-food-performance-analysis) | [Top Restaurants](#1-top-10-restaurants-by-order-volume) · [Top Categories](#2-top-5-categories-by-order-volume) · [Popular Dishes](#3-most-popular-dishes) · [Cuisine Performance](#4-cuisine-performance-orders-and-average-rating) |
-| 💰 **H** | [Price & Rating Distribution](#h-price-and-rating-distribution) | [By Price Range](#1-total-orders-by-price-range) · [Rating Distribution](#2-rating-distribution) |
+| 🧹 **A** | **[Data Validation](#a-data-validation)** | Null Check · Blank / Empty Check · Duplicate Check · Delete Duplicates |
+| ⭐ **B** | **[Star Schema Creation](#b-star-schema-creation)** | Dimension Tables · Fact Table |
+| 📥 **C** | **[Loading Data](#c-loading-data)** | Populate Dimensions · Populate Fact Table |
+| 📊 **D** | **[KPIs](#d-kpis)** | Total Orders · Total Revenue · Avg Dish Price · Avg Rating |
+| 📅 **E** | **[Time-Based Trends](#e-time-based-trends)** | Monthly · Quarterly · Yearly · Day of Week |
+| 📍 **F** | **[Location Analysis](#f-location-analysis)** | Top 10 Cities · Revenue by State |
+| 🍜 **G** | **[Food Performance](#g-food-performance-analysis)** | Top Restaurants · Top Categories · Popular Dishes · Cuisine Performance |
+| 💰 **H** | **[Price & Rating Distribution](#h-price-and-rating-distribution)** | By Price Range · Rating Distribution |
 
 ---
 
