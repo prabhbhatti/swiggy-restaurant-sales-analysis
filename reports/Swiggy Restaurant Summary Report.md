@@ -28,6 +28,8 @@ high across the board.
 | States Covered | 28 |
 | Time Period | Jan to Aug 2025 |
 
+> 📊 *See the KPI cards in [`/visuals/KPIs`](../visuals/KPIs)*
+
 ---
 
 ## 2. Objectives
@@ -42,19 +44,24 @@ high across the board.
 
 ## 3. Methodology
 
-I worked from a single large order table covering 197,401 records. Using SQL, I
-wrote aggregation queries to group orders by time period, city, state, restaurant,
-category, dish, price band, and rating. I used ranking and sorting to pull out the
-top performers in each area, then calculated the headline KPIs like total revenue
-and average rating. The results were exported into charts and two dashboards so the
-patterns are easy to read at a glance.
+I worked from a single large order table covering 197,401 records. Before analysis,
+I ran data validation checks for nulls, blanks, and duplicate records to make sure
+the results were clean. Using SQL, I then wrote aggregation queries to group orders
+by time period, city, state, restaurant, category, dish, price band, and rating. I
+used ranking and sorting to pull out the top performers in each area, then calculated
+the headline KPIs like total revenue and average rating. The results were exported
+into charts so the patterns are easy to read at a glance.
+
+> 📊 *See the cleaning checks in [`/visuals/Data Validation`](../visuals/Data%20Validation)*
 
 ---
 
 ## 4. Key Findings & Insights
 
 ### 4.1 Time Trends
-> 📊 *See the Time Trends dashboard in `/visuals`*
+> 📊 *See the Deep-Dive Analysis charts:*
+> ![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
+> ![Orders by Day of The Week](../visuals/Deep-Dive%20Analysis/Orders%20by%20Day%20of%20The%20Week.png)
 
 Orders stayed remarkably steady all year, sitting between 23K and 25K every month,
 with January the busiest at 25.4K. Weekends were the strongest days, led by Saturday.
@@ -65,7 +72,9 @@ extra delivery capacity. The dip in Quarter 3 is not a real drop, it just reflec
 the data ending in August.
 
 ### 4.2 Location
-> 📊 *See the Location dashboard in `/visuals`*
+> 📊 *See the Location Based Analysis charts:*
+> ![Top 10 Cities](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png)
+> ![Revenue by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)
 
 Bengaluru was the top city by a wide margin at 20.1K orders, almost double the next
 city. Karnataka was also the top state for revenue at 5.46M INR.
@@ -76,7 +85,10 @@ biggest risk if demand there slips. The cities ranked two through ten are tightl
 bunched near 10K each, which shows a healthy second tier worth growing.
 
 ### 4.3 Food Performance
-> 📊 *See the Food Performance dashboard in `/visuals`*
+> 📊 *See the Food Performance Analysis charts:*
+> ![Top 10 Restaurants](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png)
+> ![Most Popular Dishes](../visuals/Food%20Performance%20Analysis/Most%20Popular%20Dishes.png)
+> ![Total Order by Price Range](../visuals/Food%20Performance%20Analysis/Total%20Order%20by%20Price%20Range.png)
 
 McDonald's and KFC were the two busiest restaurants, neck and neck around 13K orders
 each. Veg Fried Rice was the single most ordered dish, and most orders landed in the
@@ -88,7 +100,8 @@ range, which lines up with the 268.50 INR average dish price, so that band is th
 sweet spot for deals and combos.
 
 ### 4.4 Ratings
-> 📊 *See the Ratings breakdown in `/visuals`*
+> 📊 *See the Rating Distribution chart:*
+> ![Rating Distribution](../visuals/Food%20Performance%20Analysis/Rating%20Distribution%20%281-5%29.png)
 
 Ratings lean strongly positive. A 4.4 score alone appeared on 85.6K orders, and the
 large majority of orders sat at 4.0 or higher.
@@ -103,8 +116,8 @@ fixing a bad experience.
 
 1. **Protect Bengaluru and Karnataka.** They drive the most orders and revenue, so
 they deserve the most attention and the strongest partner support.
-2. **Grow the second tier cities.** Mumbai, Hyderabad, Jaipur, and the rest are
-close together near 10K orders, so a small push could lift the whole group.
+2. **Grow the second tier cities.** The cities ranked two through ten are close
+together near 10K orders, so a small push could lift the whole group.
 3. **Lean into weekends.** Saturday and Sunday are the busiest days, so that is
 where promotions and delivery capacity will pay off most.
 4. **Focus deals on the mid price band.** Most orders sit in the 100 to 299 INR
@@ -123,4 +136,4 @@ price range, and customer ratings were strongly positive.
 
 The clearest ways to grow are to protect the leading market, nurture the tightly
 packed second tier of cities, and time promotions around weekends and the mid price
-band. The dashboards make it easy to keep an eye on all of these trends in one place.
+band. The charts make it easy to keep an eye on all of these trends in one place.

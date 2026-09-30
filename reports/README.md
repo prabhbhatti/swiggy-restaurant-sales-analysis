@@ -18,9 +18,9 @@ Four themes, answered with SQL:
 `Time Trends` · `Location` · `Food Performance` · `Ratings`
 
 ## 📸 Dashboard Preview
-| Sales & Time Trends | Location & Food |
-|---------------------|-----------------|
-| ![Time Trends](../visuals/01_Trends/Time%20Trends%20Dashboard.png) | ![Location](../visuals/02_Location/Location%20Dashboard.png) |
+| Monthly Order Trends | Top 10 Cities by Order Volume |
+|----------------------|-------------------------------|
+| ![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png) | ![Top 10 Cities](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png) |
 
 ## 📁 Repository Structure
 - `data/` — raw Swiggy order dataset
