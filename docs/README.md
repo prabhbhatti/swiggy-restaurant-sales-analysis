@@ -201,8 +201,6 @@ A classic star schema. The `fact_order` table sits at the center and links out t
 | Tool | Role |
 |:-----|:-----|
 | 🗄️ **SQL Server (T-SQL)** | Validation, cleaning, star schema modeling, and analysis |
-| 🐍 **Python (Pandas)** | Exploration and chart generation |
-
 ---
 
 <div align="center">
