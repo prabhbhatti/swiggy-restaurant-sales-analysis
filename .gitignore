@@ -1,17 +1,3 @@
-# Data files - don't commit actual data to Git
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.json
-*.xml
-data/raw/*
-data/processed/*
-data/external/*
-!data/raw/README.md
-!data/processed/README.md
-!data/external/README.md
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
