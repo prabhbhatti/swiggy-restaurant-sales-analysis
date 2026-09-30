@@ -1,22 +1,4 @@
-The problem is clear from your screenshots: two things got pasted into the actual `README.md` by mistake.
-
-1. My **explanation notes** ("What makes this version better" and "Two quick checks") ended up **inside the file**.
-2. A stray closing ` ``` ` after the `</div>` broke the fencing, which is why your **Repository Structure tree collapsed into one flowing line** instead of staying in a code box.
-
-Below is the full, clean file with all of that removed, no stray fences, and no dashes used in the writing. Copy everything inside the box.
-
-````markdown
 # 🍽️ Swiggy Restaurant Sales Analysis
-
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Python](https://img.shields.io/badge/Python%20Pandas-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=for-the-badge)
-
-> Turning **197,402 rows** of raw Swiggy order data into a clean star schema and business ready insights, all inside SQL Server.
-
-📄 **Want the full SQL?** Every query lives in [`docs/Swiggy_Restaurant Doc.md`](Swiggy_Restaurant%20Doc.md).
-
----
 
 ## 📌 Project Overview
 
