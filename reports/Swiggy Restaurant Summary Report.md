@@ -1,6 +1,6 @@
 # 🍽️ Swiggy Restaurant Sales Analysis — Summary Report
 
-**Name:** ⟨Your Name⟩
+**Name:** ⟨Bhatti Prabhpreet Singh⟩
 **Tools:** SQL Server (data cleaning, star schema modeling, and analysis), Python with Pandas (exploration and charts)
 **Dataset:** ad hoc Swiggy order export. Order level records across Indian cities covering price, ratings, restaurants, dishes, menu categories, and location.
 
