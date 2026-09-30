@@ -54,18 +54,18 @@ The data flows through four clean stages.
 
 <table>
   <tr>
-    <td align="center"><b>Total Revenue</b><br><img src="visuals/KPIs/Total%20Revenue.png" width="380"/></td>
-    <td align="center"><b>Total Orders</b><br><img src="visuals/KPIs/Total%20Orders.png" width="380"/></td>
+    <td align="center"><b>Total Revenue</b><br><img src="../visuals/KPIs/Total%20Revenue.png" width="380"/></td>
+    <td align="center"><b>Total Orders</b><br><img src="../visuals/KPIs/Total%20Orders.png" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Top 10 Restaurants</b><br><img src="visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png" width="380"/></td>
-    <td align="center"><b>Revenue by State</b><br><img src="visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png" width="380"/></td>
+    <td align="center"><b>Top 10 Restaurants</b><br><img src="../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png" width="380"/></td>
+    <td align="center"><b>Revenue by State</b><br><img src="../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png" width="380"/></td>
   </tr>
 </table>
 
 **Monthly Order Trends**
 
-![Monthly Order Trends](visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
+![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
 
 ---
 
