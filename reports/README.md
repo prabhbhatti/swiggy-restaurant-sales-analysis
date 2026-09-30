@@ -25,7 +25,7 @@ The raw export was validated, deduplicated, and normalized into a star schema wi
 ## 📸 Dashboard Preview
 | Total Revenue | Top 10 Restaurants |
 |----------|-----------|
-| ![Total Revenue](visuals/KPIs/Total%20Revenue.png) | ![Top 10 Restaurants](visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png) |
+| ![Total Revenue](../visuals/KPIs/Total%20Revenue.png) | ![Top 10 Restaurants](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png) |
 
 ## 📁 Repository Structure
 - `data/` — raw and processed datasets (star schema tables)
