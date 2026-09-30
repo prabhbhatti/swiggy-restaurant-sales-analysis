@@ -34,6 +34,8 @@ SELECT
     SUM(CASE WHEN Rating_Count IS NULL THEN 1 ELSE 0 END) AS Null_Rating_Count_Count
 FROM swiggy_data;
 ```
+<!-- A.1 Null Check -->
+![Null Check](../visuals/Data%20Validation/Null%20Check.png)
 
 ### 2. Blank or Empty String Check
 
@@ -41,6 +43,8 @@ FROM swiggy_data;
 SELECT * FROM swiggy_data
 WHERE State = '' OR City = '' OR Restaurant_Name = '' OR Location = '' OR Category = '' OR Dish_Name = '';
 ```
+<!-- A.2 Blank / Empty String Check -->
+![Blank or Empty String Check](../visuals/Data%20Validation/Blank%20or%20Empty%20String%20Check.png)
 
 ### 3. Duplicate Records Check
 
@@ -51,6 +55,8 @@ FROM swiggy_data
 GROUP BY State, City, Order_Date, Restaurant_Name, Location, Category, Dish_Name, Price_INR, Rating, Rating_Count
 HAVING COUNT(*) > 1;
 ```
+<!-- A.3 Duplicate Records Check -->
+![Duplicate Records Check](../visuals/Data%20Validation/Duplication%20Record%20Check.png)
 
 ### 4. Delete Duplicate Records
 
@@ -64,7 +70,8 @@ WITH CTE AS (
 )
 DELETE FROM CTE WHERE RowNum > 1;
 ```
-
+<!-- A.4 Delete Duplicate Records -->
+![Delete Duplicate Records](../visuals/Data%20Validation/Delete%20Duplication.png)
 ---
 
 ## B. Star Schema Creation
@@ -199,6 +206,8 @@ JOIN dim_dish dishd ON sd.Dish_Name = dishd.DISH_NAME;
 ```sql
 SELECT COUNT(*) AS Total_Orders FROM fact_order;
 ```
+<!-- D.1 Total Orders -->
+![Total Orders](../visuals/KPIs/Total%20Orders.png)
 
 ### 2. Total Revenue (INR Million)
 
@@ -207,6 +216,8 @@ SELECT FORMAT(SUM(PRICE_INR) / 1000000.0, 'N2') + ' INR Million'
        AS Total_Revenue_INR_Million 
 FROM fact_order;
 ```
+<!-- D.2 Total Revenue -->
+![Total Revenue](../visuals/KPIs/Total%20Revenue.png)
 
 ### 3. Average Dish Price (INR)
 
@@ -214,6 +225,8 @@ FROM fact_order;
 SELECT FORMAT(AVG(PRICE_INR), 'N2') + ' INR' AS Average_Dish_Price_INR
 FROM fact_order;
 ```
+<!-- D.3 Average Dish Price -->
+![Average Dish Price](../visuals/KPIs/Average%20Dish%20Price.png)
 
 ### 4. Average Rating
 
@@ -221,6 +234,8 @@ FROM fact_order;
 SELECT AVG(RATING) AS Average_Rating
 FROM fact_order;
 ```
+<!-- D.4 Average Rating -->
+![Average Rating](../visuals/KPIs/Average%20Rating.png)
 
 ---
 
@@ -235,6 +250,8 @@ JOIN dim_date d ON f.DATE_ID = d.DATE_ID
 GROUP BY d.YEAR, d.MONTH_NAME
 ORDER BY COUNT(*) DESC;
 ```
+<!-- E.1 Monthly Order Trends -->
+![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
 
 ### 2. Quarterly Trends
 
@@ -245,6 +262,8 @@ JOIN dim_date d ON f.DATE_ID = d.DATE_ID
 GROUP BY d.YEAR, d.QUARTER
 ORDER BY COUNT(*) DESC;
 ```
+<!-- E.2 Quarterly Trends -->
+![Quarterly Trends](../visuals/Deep-Dive%20Analysis/Quarterly%20Trends.png)
 
 ### 3. Yearly Trends
 
@@ -255,6 +274,8 @@ JOIN dim_date d ON f.DATE_ID = d.DATE_ID
 GROUP BY d.YEAR
 ORDER BY COUNT(*) DESC;
 ```
+<!-- E.3 Yearly Trends -->
+![Yearly Trends](../visuals/Deep-Dive%20Analysis/Yearly%20Trends.png)
 
 ### 4. Orders by Day of the Week
 
@@ -265,7 +286,8 @@ JOIN dim_date d ON f.DATE_ID = d.DATE_ID
 GROUP BY DATENAME(WEEKDAY, d.FULL_DATE), DATEPART(WEEKDAY, d.FULL_DATE)
 ORDER BY DATEPART(WEEKDAY, d.FULL_DATE);
 ```
-
+<!-- E.4 Orders by Day of the Week -->
+![Orders by Day of the Week](../visuals/Deep-Dive%20Analysis/Orders%20by%20Day%20of%20The%20Week.png)
 ---
 
 ## F. Location Analysis
@@ -279,6 +301,8 @@ JOIN dim_location l ON f.LOCATION_ID = l.LOCATION_ID
 GROUP BY l.CITY
 ORDER BY COUNT(*) DESC;
 ```
+<!-- F.1 Top 10 Cities by Order Volume -->
+![Top 10 Cities by Order Volume](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png)
 
 ### 2. Revenue Contribution by State
 
@@ -289,7 +313,8 @@ JOIN dim_location l ON f.LOCATION_ID = l.LOCATION_ID
 GROUP BY l.STATE
 ORDER BY SUM(f.PRICE_INR) DESC;
 ```
-
+<!-- F.2 Revenue Contribution by State -->
+![Revenue Contributed by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)
 ---
 
 ## G. Food Performance Analysis
@@ -303,6 +328,8 @@ JOIN dim_restaurant r ON f.RESTAURANT_ID = r.RESTAURANT_ID
 GROUP BY r.RESTAURANT_NAME
 ORDER BY COUNT(*) DESC;
 ```
+<!-- G.1 Top 10 Restaurants by Order Volume -->
+![Top 10 Restaurants by Order Volume](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png)
 
 ### 2. Top 5 Categories by Order Volume
 
@@ -313,6 +340,8 @@ JOIN dim_category c ON f.CATEGORY_ID = c.CATEGORY_ID
 GROUP BY c.CATEGORY
 ORDER BY COUNT(*) DESC;
 ```
+<!-- G.2 Top 5 Categories by Order Volume -->
+![Top 5 Categories by Order Volume](../visuals/Food%20Performance%20Analysis/Top%205%20Categories%20by%20Order%20Volume.png)
 
 ### 3. Most Popular Dishes
 
@@ -323,6 +352,8 @@ JOIN dim_dish dis ON f.DISH_ID = dis.DISH_ID
 GROUP BY dis.DISH_NAME
 ORDER BY COUNT(*) DESC;
 ```
+<!-- G.3 Most Popular Dishes -->
+![Most Popular Dishes](../visuals/Food%20Performance%20Analysis/Most%20Popular%20Dishes.png)
 
 ### 4. Cuisine Performance (Orders and Average Rating)
 
@@ -333,7 +364,8 @@ JOIN dim_category c ON f.CATEGORY_ID = c.CATEGORY_ID
 GROUP BY c.CATEGORY
 ORDER BY Total_Orders DESC;
 ```
-
+<!-- G.4 Cuisine Performance -->
+![Cuisine Performance](../visuals/Food%20Performance%20Analysis/Cuisine%20Performance.png)
 ---
 
 ## H. Price and Rating Distribution
@@ -363,6 +395,8 @@ GROUP BY
     END
 ORDER BY Total_Orders DESC;
 ```
+<!-- H.1 Total Orders by Price Range -->
+![Total Orders by Price Range](../visuals/Food%20Performance%20Analysis/Total%20Order%20by%20Price%20Range.png)
 
 ### 2. Rating Distribution
 
@@ -371,3 +405,6 @@ SELECT RATING, COUNT(*) AS Rating_Count
 FROM fact_order
 GROUP BY RATING
 ORDER BY COUNT(*) DESC;
+```
+<!-- H.2 Rating Distribution (1-5) -->
+![Rating Distribution (1-5)](../visuals/Food%20Performance%20Analysis/Rating%20Distribution%20(1-5).png)
