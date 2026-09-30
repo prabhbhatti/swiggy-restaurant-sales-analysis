@@ -101,22 +101,84 @@ extra delivery capacity.
 
 ### 4.2 Location
 
+**Top 10 cities by order volume**
+
+| Rank | City | Total Orders |
+|-----:|------|-------------:|
+| 1 | Bengaluru | 20,072 |
+| 2 | Mumbai | 10,507 |
+| 3 | Hyderabad | 10,308 |
+| 4 | Jaipur | 10,285 |
+| 5 | Lucknow | 10,192 |
+| 6 | New Delhi | 10,191 |
+| 7 | Ahmedabad | 10,175 |
+| 8 | Chandigarh | 10,060 |
+| 9 | Kolkata | 10,044 |
+| 10 | Chennai | 10,042 |
+
+**Top 10 states by revenue (of 28)**
+
+| Rank | State | Revenue (INR) |
+|-----:|-------|--------------:|
+| 1 | Karnataka | 5,455,888 |
+| 2 | Uttar Pradesh | 3,117,360 |
+| 3 | Telangana | 3,021,657 |
+| 4 | Maharashtra | 3,015,573 |
+| 5 | Delhi | 2,829,181 |
+| 6 | Gujarat | 2,815,536 |
+| 7 | Punjab | 2,804,992 |
+| 8 | West Bengal | 2,662,214 |
+| 9 | Tamil Nadu | 2,642,595 |
+| 10 | Rajasthan | 2,502,834 |
+
 Bengaluru was the top city by a wide margin at 20.1K orders, almost double the next
-city. Karnataka was also the top state for revenue at 5.46M INR.
+city, Mumbai, at 10.5K. Karnataka was also the top state for revenue at 5.46M INR,
+roughly 75% ahead of the next state.
 
 **What this means:** The business is very top heavy on one market. Bengaluru and
 Karnataka carry an outsized share, so they are the safest place to protect and the
-biggest risk if demand there slips. The cities ranked two through ten are tightly
-bunched near 10K each, which shows a healthy second tier worth growing.
+biggest risk if demand there slips. Cities ranked two through ten are tightly bunched
+between 10.0K and 10.5K orders, which shows a healthy and competitive second tier
+worth growing.
 
 📊 *Charts: [Top 10 Cities by Order Volume](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png) ·
 [Revenue Contributed by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)*
 
+
 ### 4.3 Food Performance
 
-McDonald's and KFC were the two busiest restaurants, neck and neck around 13K orders
-each. Veg Fried Rice was the single most ordered dish, and most orders landed in the
-100 to 299 INR price band.
+**Top 10 restaurants by order volume**
+
+| Rank | Restaurant | Total Orders |
+|-----:|------------|-------------:|
+| 1 | McDonald's | 13,528 |
+| 2 | KFC | 12,957 |
+| 3 | Burger King | 7,115 |
+| 4 | Pizza Hut | 6,529 |
+| 5 | Domino's Pizza | 5,489 |
+| 6 | LunchBox – Meals and Thalis | 4,700 |
+| 7 | Baskin Robbins – Ice Cream Desserts | 4,197 |
+| 8 | Faasos – Wraps, Rolls & Shawarma | 3,256 |
+| 9 | Olio – The Wood Fired Pizzeria | 3,239 |
+| 10 | The Good Bowl | 2,665 |
+
+**Orders by price band (INR)**
+
+| Price Range | Total Orders |
+|-------------|-------------:|
+| Under 100 | 26,795 |
+| 100 – 199 | 58,279 |
+| 200 – 299 | 54,026 |
+| 300 – 399 | 30,592 |
+| 400 – 499 | 12,209 |
+| 500+ | 15,500 |
+
+**Most ordered dish:** Veg Fried Rice
+
+McDonald's and KFC were the two busiest restaurants by a clear margin, at 13.5K and
+13.0K orders, nearly double the third-placed Burger King. Veg Fried Rice was the
+single most ordered dish, and the 100 to 299 INR range dominated with roughly 112K
+orders, more than half of all orders.
 
 **What this means:** A small group of big quick service brands drives the bulk of
 orders, so these partners matter most. On price, customers clearly favour the mid
