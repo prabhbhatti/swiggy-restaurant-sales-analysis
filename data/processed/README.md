@@ -1,6 +1,4 @@
 Here's a complete `README.md` for your `processed/` folder:
-
-```markdown
 # Processed Data
 
 This folder contains the cleaned dataset and a **star schema** model derived from
@@ -137,7 +135,6 @@ Cleaned, denormalized flat file (source for the star schema).
 - **Naming convention:** schema tables use `UPPER_SNAKE_CASE`; the cleaned flat
   file uses `Title Case (with spaces)`. This is intentional.
 - All records are from **2025**.
-```
 
 A couple of quick things before you commit this:
 
