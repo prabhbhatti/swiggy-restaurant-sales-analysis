@@ -28,7 +28,10 @@ high across the board.
 | States Covered | 28 |
 | Time Period | Jan to Aug 2025 |
 
-> 📊 *See the KPI cards in [`/visuals/KPIs`](../visuals/KPIs)*
+📊 *KPI charts: [Total Orders](../visuals/KPIs/Total%20Orders.png) ·
+[Total Revenue](../visuals/KPIs/Total%20Revenue.png) ·
+[Average Dish Price](../visuals/KPIs/Average%20Dish%20Price.png) ·
+[Average Rating](../visuals/KPIs/Average%20Rating.png)*
 
 ---
 
@@ -49,32 +52,54 @@ I ran data validation checks for nulls, blanks, and duplicate records to make su
 the results were clean. Using SQL, I then wrote aggregation queries to group orders
 by time period, city, state, restaurant, category, dish, price band, and rating. I
 used ranking and sorting to pull out the top performers in each area, then calculated
-the headline KPIs like total revenue and average rating. The results were exported
-into charts so the patterns are easy to read at a glance.
+the headline KPIs like total revenue and average rating.
 
-> 📊 *See the cleaning checks in [`/visuals/Data Validation`](../visuals/Data%20Validation)*
+📊 *Cleaning checks (charts): [Null Check](../visuals/Data%20Validation/Null%20Check.png) ·
+[Blank/Empty String Check](../visuals/Data%20Validation/Blank%20or%20Empty%20String%20Check.png) ·
+[Duplicate Record Check](../visuals/Data%20Validation/Duplication%20Record%20Check.png) ·
+[Delete Duplication](../visuals/Data%20Validation/Delete%20Duplication.png)*
 
 ---
 
 ## 4. Key Findings & Insights
 
 ### 4.1 Time Trends
-> 📊 *See the Deep-Dive Analysis charts:*
-> ![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
-> ![Orders by Day of The Week](../visuals/Deep-Dive%20Analysis/Orders%20by%20Day%20of%20The%20Week.png)
+
+**Orders by month**
+
+| Month | Total Orders |
+|-------|-------------:|
+| January | 25,393 |
+| August | 25,227 |
+| May | 25,188 |
+| July | 24,936 |
+| April | 24,584 |
+| March | 24,400 |
+| June | 24,382 |
+| February | 23,291 |
+
+**Orders by day of the week (top days)**
+
+| Day | Total Orders |
+|-----|-------------:|
+| Saturday | 28,933 |
+| Sunday | 28,469 |
+| Thursday | 28,450 |
+| Wednesday | 28,284 |
 
 Orders stayed remarkably steady all year, sitting between 23K and 25K every month,
 with January the busiest at 25.4K. Weekends were the strongest days, led by Saturday.
 
 **What this means:** Demand is stable and predictable, which is good for planning. The
 only real lift comes on weekends, so that is the natural window for promotions and
-extra delivery capacity. The dip in Quarter 3 is not a real drop, it just reflects
-the data ending in August.
+extra delivery capacity.
+
+📊 *Charts: [Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png) ·
+[Orders by Day of The Week](../visuals/Deep-Dive%20Analysis/Orders%20by%20Day%20of%20The%20Week.png) ·
+[Quarterly Trends](../visuals/Deep-Dive%20Analysis/Quarterly%20Trends.png) ·
+[Yearly Trends](../visuals/Deep-Dive%20Analysis/Yearly%20Trends.png)*
 
 ### 4.2 Location
-> 📊 *See the Location Based Analysis charts:*
-> ![Top 10 Cities](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png)
-> ![Revenue by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)
 
 Bengaluru was the top city by a wide margin at 20.1K orders, almost double the next
 city. Karnataka was also the top state for revenue at 5.46M INR.
@@ -84,11 +109,10 @@ Karnataka carry an outsized share, so they are the safest place to protect and t
 biggest risk if demand there slips. The cities ranked two through ten are tightly
 bunched near 10K each, which shows a healthy second tier worth growing.
 
+📊 *Charts: [Top 10 Cities by Order Volume](../visuals/Location%20Based%20Analysis/Top%2010%20Cities%20by%20Order%20Volume.png) ·
+[Revenue Contributed by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)*
+
 ### 4.3 Food Performance
-> 📊 *See the Food Performance Analysis charts:*
-> ![Top 10 Restaurants](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png)
-> ![Most Popular Dishes](../visuals/Food%20Performance%20Analysis/Most%20Popular%20Dishes.png)
-> ![Total Order by Price Range](../visuals/Food%20Performance%20Analysis/Total%20Order%20by%20Price%20Range.png)
 
 McDonald's and KFC were the two busiest restaurants, neck and neck around 13K orders
 each. Veg Fried Rice was the single most ordered dish, and most orders landed in the
@@ -99,9 +123,31 @@ orders, so these partners matter most. On price, customers clearly favour the mi
 range, which lines up with the 268.50 INR average dish price, so that band is the
 sweet spot for deals and combos.
 
+📊 *Charts: [Top 10 Restaurants](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png) ·
+[Most Popular Dishes](../visuals/Food%20Performance%20Analysis/Most%20Popular%20Dishes.png) ·
+[Top 5 Categories](../visuals/Food%20Performance%20Analysis/Top%205%20Categories%20by%20Order%20Volume.png) ·
+[Cuisine Performance](../visuals/Food%20Performance%20Analysis/Cuisine%20Performance.png) ·
+[Total Order by Price Range](../visuals/Food%20Performance%20Analysis/Total%20Order%20by%20Price%20Range.png)*
+
 ### 4.4 Ratings
-> 📊 *See the Rating Distribution chart:*
-> ![Rating Distribution](../visuals/Food%20Performance%20Analysis/Rating%20Distribution%20%281-5%29.png)
+
+**Rating distribution**
+
+| Rating | Order Count |
+|--------|------------:|
+| 4.40 | 85,642 |
+| 4.30 | 13,698 |
+| 4.60 | 10,840 |
+| 4.50 | 9,946 |
+| 5.00 | 9,401 |
+| 4.70 | 9,089 |
+| 4.80 | 8,809 |
+| 4.20 | 8,214 |
+| 4.10 | 7,619 |
+| 4.90 | 5,713 |
+| 4.00 | 5,346 |
+| 3.90 | 4,021 |
+| 3.80 | 3,966 |
 
 Ratings lean strongly positive. A 4.4 score alone appeared on 85.6K orders, and the
 large majority of orders sat at 4.0 or higher.
@@ -109,6 +155,8 @@ large majority of orders sat at 4.0 or higher.
 **What this means:** Customer satisfaction is high and consistent, so quality is not
 the problem to solve here. The opportunity is about reach and volume rather than
 fixing a bad experience.
+
+📊 *Chart: [Rating Distribution (1-5)](../visuals/Food%20Performance%20Analysis/Rating%20Distribution%20%281-5%29.png)*
 
 ---
 
@@ -136,4 +184,4 @@ price range, and customer ratings were strongly positive.
 
 The clearest ways to grow are to protect the leading market, nurture the tightly
 packed second tier of cities, and time promotions around weekends and the mid price
-band. The charts make it easy to keep an eye on all of these trends in one place.
+band.
