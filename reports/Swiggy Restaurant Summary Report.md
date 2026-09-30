@@ -1,6 +1,6 @@
 # 📊 Swiggy Restaurant Data Analysis — Summary Report
 
-**Tools:** SQL (aggregation, grouping, ranking), cloud SQL worksheet for querying
+**Tools:** SQL (aggregation, grouping, ranking)
 **Dataset:** 197,401 Swiggy orders across 28 states, January to August 2025
 
 ---
