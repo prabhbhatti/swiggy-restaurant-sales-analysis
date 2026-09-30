@@ -33,13 +33,6 @@ into one fact table and five dimension tables for analysis and reporting.
 - Removed **200 duplicate rows**.
 - Standardized column headers (e.g., `Price_INR` → `Price (INR)`, `Rating_Count` → `Rating Count`).
 - Normalized the flat file into a star schema (see below).
-
-> ⚠️ **Data quality note:** Some source values in `dim_dish` and `dim_category`
-> reflect raw Swiggy menu-listing noise (e.g., leading `*`, quotes, or bracketed
-> promo text). One known **character-encoding artifact** exists in `dim_category`
-> (e.g., `1 + 1 BOGO @ 179 each [Coupons...Applicable]`), where special characters
-> were not read as UTF-8. These are candidates for further cleaning.
-
 ---
 
 ## ⭐ Star Schema
@@ -129,14 +122,3 @@ Cleaned, denormalized flat file (source for the star schema).
 | `Rating Count` | Number of ratings |
 
 ---
-
-## 📝 Notes
-
-- **Naming convention:** schema tables use `UPPER_SNAKE_CASE`; the cleaned flat
-  file uses `Title Case (with spaces)`. This is intentional.
-- All records are from **2025**.
-
-A couple of quick things before you commit this:
-
-1. I left the encoding note based on what I saw — feel free to remove it if you've already fixed those values.
-2. If you know the exact **row counts** for each dimension/fact table (e.g., how many unique dishes, restaurants, etc.), those are great to add — want me to include a "Table Sizes" section if you send the counts?
