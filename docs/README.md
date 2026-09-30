@@ -4,6 +4,8 @@
 
 End-to-end analysis of Swiggy restaurant order data using SQL Server for data cleaning, modeling, and querying. The raw flat file was validated, deduplicated, and normalized into a star schema, then analyzed to uncover trends in pricing, ratings, menu categories, and regional performance across Indian cities. The goal is to turn a raw, unstructured order dataset into a clean analytical model and produce insights that could support business decisions such as menu strategy, pricing, and location targeting.
 
+📄 **Full SQL workflow:** see [`docs/Swiggy_Restaurant Doc.md`](Swiggy_Restaurant%20Doc.md) for the complete T-SQL — validation, schema, loading, KPIs, and analysis.
+
 ## 🎯 Business Questions
 
 Which cities and states generate the highest order activity. How do dish prices vary across categories and regions. Which restaurants and dishes hold the strongest ratings and order volumes. How do sales patterns shift across months, quarters, and days of the week. Which menu categories are the most popular overall.
@@ -20,6 +22,32 @@ The workflow moves through four clear stages.
 
 **Analysis and reporting** uses SQL queries and visuals to answer the business questions and present findings.
 
+## 📊 Key Findings
+
+> Headline results from the analysis. See the [full SQL doc](Swiggy_Restaurant%20Doc.md) for the queries behind each.
+
+- **💰 Total Revenue:** ⟨e.g. XX.XX INR Million⟩ across 197,202 orders
+- **🏙️ Top City by Order Volume:** ⟨e.g. Mumbai⟩ led all cities
+- **🍜 Most Popular Category:** ⟨e.g. Fast Food⟩ topped order volume
+- **📅 Busiest Day of Week:** ⟨e.g. Saturday⟩ saw peak ordering activity
+- **⭐ Average Rating:** ⟨e.g. 4.X⟩ across all dishes
+
+### KPI Snapshot
+
+![Total Revenue](../visuals/KPIs/Total%20Revenue.png)
+![Total Orders](../visuals/KPIs/Total%20Orders.png)
+
+### Highlight Visuals
+
+**Top 10 Restaurants by Order Volume**
+![Top 10 Restaurants by Order Volume](../visuals/Food%20Performance%20Analysis/Top%2010%20Restaurants%20by%20Order%20Volume.png)
+
+**Monthly Order Trends**
+![Monthly Order Trends](../visuals/Deep-Dive%20Analysis/Monthly%20Order%20Trends.png)
+
+**Revenue Contribution by State**
+![Revenue Contributed by States](../visuals/Location%20Based%20Analysis/Revenue%20Contributed%20by%20States.png)
+
 ## 🗂️ Repository Structure
 
 | Folder | Purpose |
@@ -31,19 +59,20 @@ The workflow moves through four clear stages.
 | `queries/` | SQL scripts used to query the data model |
 | `scripts/` | Cleaning and transformation code |
 | `reports/` | Summary reports and written findings |
-| `visuals/` | Charts, dashboards, and exported images |
+| `visuals/` | Charts and exported images, organized by analysis theme |
+
+### `visuals/` Layout
 
 ## ⭐ Data Model
 
 The project uses a star schema. `fact_order` sits at the center and connects to `dim_date`, `dim_location`, `dim_restaurant`, `dim_category`, and `dim_dish` through foreign keys.
 
-```
-                    dim_date
-                       |
-     dim_location ---- fact_order ---- dim_restaurant
-                       |   |
-                dim_category   dim_dish
-```
+dim_date
+                   |
+ dim_location ---- fact_order ---- dim_restaurant
+                   |   |
+            dim_category   dim_dish
+
 
 ## 📖 Data Dictionary
 
@@ -106,6 +135,9 @@ The project uses a star schema. `fact_order` sits at the center and connects to 
 
 ## 🛠️ Tools Used
 
-SQL Server with T-SQL for data validation, cleaning, modeling, and analysis. Add your visualization tool here, for example Power BI, Tableau, or Excel, once your dashboard is complete.
+- **SQL Server (T-SQL)** — data validation, cleaning, star schema modeling, and analytical queries
+- **Python (Pandas)** — exploratory analysis and chart generation via notebooks
 
 ---
+
+*Built as an end-to-end SQL analytics project — from raw CSV to a modeled star schema and business-ready insights.*
