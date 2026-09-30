@@ -2,6 +2,43 @@
 
 This section contains the full SQL workflow, written in T-SQL for SQL Server. It covers data validation, star schema creation, data loading, KPIs, and deep-dive analysis.
 
+## 📑 Table of Contents
+
+- [A. Data Validation](#a-data-validation)
+  - [1. Null Check](#1-null-check)
+  - [2. Blank or Empty String Check](#2-blank-or-empty-string-check)
+  - [3. Duplicate Records Check](#3-duplicate-records-check)
+  - [4. Delete Duplicate Records](#4-delete-duplicate-records)
+- [B. Star Schema Creation](#b-star-schema-creation)
+  - [1. Dimension Tables](#1-dimension-tables)
+  - [2. Fact Table](#2-fact-table)
+- [C. Loading Data](#c-loading-data)
+  - [1. Populate Dimension Tables](#1-populate-dimension-tables)
+  - [2. Populate Fact Table](#2-populate-fact-table)
+- [D. KPIs](#d-kpis)
+  - [1. Total Orders](#1-total-orders)
+  - [2. Total Revenue (INR Million)](#2-total-revenue-inr-million)
+  - [3. Average Dish Price (INR)](#3-average-dish-price-inr)
+  - [4. Average Rating](#4-average-rating)
+- [E. Time-Based Trends](#e-time-based-trends)
+  - [1. Monthly Order Trends](#1-monthly-order-trends)
+  - [2. Quarterly Trends](#2-quarterly-trends)
+  - [3. Yearly Trends](#3-yearly-trends)
+  - [4. Orders by Day of the Week](#4-orders-by-day-of-the-week)
+- [F. Location Analysis](#f-location-analysis)
+  - [1. Top 10 Cities by Order Volume](#1-top-10-cities-by-order-volume)
+  - [2. Revenue Contribution by State](#2-revenue-contribution-by-state)
+- [G. Food Performance Analysis](#g-food-performance-analysis)
+  - [1. Top 10 Restaurants by Order Volume](#1-top-10-restaurants-by-order-volume)
+  - [2. Top 5 Categories by Order Volume](#2-top-5-categories-by-order-volume)
+  - [3. Most Popular Dishes](#3-most-popular-dishes)
+  - [4. Cuisine Performance (Orders and Average Rating)](#4-cuisine-performance-orders-and-average-rating)
+- [H. Price and Rating Distribution](#h-price-and-rating-distribution)
+  - [1. Total Orders by Price Range](#1-total-orders-by-price-range)
+  - [2. Rating Distribution](#2-rating-distribution)
+
+---
+
 ## A. Data Validation
 
 ### 1. Null Check
