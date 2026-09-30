@@ -1,0 +1,962 @@
+LOCATION_ID,STATE,CITY,LOCATION
+1,Karnataka,Bengaluru,Dommasandra
+2,Karnataka,Bengaluru,Sarjapur Road Yamare
+3,Gujarat,Ahmedabad,Adani Shanti Gram
+4,Rajasthan,Jaipur,Vidhyadhar Nagar
+5,Haryana,Gurgaon,Sector 4
+6,Haryana,Gurgaon,Sohna Road
+7,Haryana,Gurgaon,Palam Vihar
+8,Himachal Pradesh,Shimla,Lakkar Bazar
+9,Himachal Pradesh,Shimla,Combermere House
+10,Manipur,Imphal,Majorkhul
+11,Telangana,Hyderabad,Lingampally
+12,Uttar Pradesh,Lucknow,Sushant Golf City
+13,Uttar Pradesh,Lucknow,Mohanlalganj
+14,Tamil Nadu,Chennai,Medavakkam
+15,Delhi,New Delhi,Sector 72
+16,Delhi,New Delhi,C Block
+17,Delhi,New Delhi,Sector 59 Noida
+18,Kerala,Kochi,Central Square Mall
+19,Gujarat,Ahmedabad,Chandkheda
+20,Maharashtra,Mumbai,Dombivali
+21,Maharashtra,Mumbai,Thane Hiranandani Estate
+22,Bihar,Patna,P&M Mall
+23,Mizoram,Aizawl,Bazaar Bungkan
+24,Telangana,Hyderabad,Serlingampally Circle No 20
+25,Punjab,Chandigarh,Sector 24 D
+26,Assam,Guwahati,Amingaon
+27,Assam,Guwahati,Borjhar
+28,Karnataka,Bengaluru,New BEL Road
+29,West Bengal,Kolkata,Jadavpur
+30,Punjab,Chandigarh,Kalka
+31,West Bengal,Kolkata,New Town
+32,Madhya Pradesh,Indore,Bhawar Kuan
+33,Jharkhand,Ranchi,Kokar
+34,Jharkhand,Ranchi,Hatia
+35,Goa,Panaji,Municipal Market
+36,Jammu and Kashmir,Srinagar,Karanagar
+37,Karnataka,Bengaluru,BBMP West
+38,West Bengal,Kolkata,Bidhannagar
+39,Punjab,Chandigarh,Phase 10 Mohali
+40,Punjab,Chandigarh,Sector 66
+41,Punjab,Chandigarh,Phase 5
+42,Delhi,New Delhi,Sanjay Nagar
+43,Maharashtra,Mumbai,Millennium Park Chs
+44,Maharashtra,Mumbai,Ulwe
+45,West Bengal,Kolkata,James Long
+46,Madhya Pradesh,Indore,Sheetal Nagar
+47,Assam,Guwahati,Six Mile
+48,Jammu and Kashmir,Srinagar,Mala Bagh
+49,Jammu and Kashmir,Srinagar,Batamaloo
+50,Delhi,New Delhi,OPULENT MALL
+51,Rajasthan,Jaipur,Vaishali Nagar
+52,Tamil Nadu,Chennai,Nungambakkam
+53,Uttarakhand,Dehradun,Jogiwala
+54,Tripura,Agartala,Ganaraj Chowmuhani
+55,Manipur,Imphal,Dharmasala
+56,Maharashtra,Mumbai,Kharghar
+57,Uttar Pradesh,Lucknow,PALASSIO MALL
+58,Karnataka,Bengaluru,Velankani Drive
+59,Madhya Pradesh,Indore,Village Khajrana Citadel Indore
+60,Telangana,Hyderabad,Sainikpuri
+61,Uttar Pradesh,Lucknow,Omaxe heights
+62,Odisha,Bhubaneswar,Chandrasekharpur
+63,Karnataka,Bengaluru,Rajarajeshwari Nagar
+64,Karnataka,Bengaluru,BHEEMANAHALLI- BIDADI
+65,Gujarat,Ahmedabad,Thaltej
+66,Gujarat,Ahmedabad,Palladium FC
+67,Rajasthan,Jaipur,Pink City
+68,Rajasthan,Jaipur,Laxmi Vihar
+69,Haryana,Gurgaon,"Sector 37,Gurgaon"
+70,Haryana,Gurgaon,Sector 37
+71,Telangana,Hyderabad,RANGAREDDY
+72,Delhi,New Delhi,Sector 52
+73,Haryana,Gurgaon,Mehrauli
+74,Goa,Panaji,Bardez
+75,Bihar,Patna,Hajipur
+76,Odisha,Bhubaneswar,Patrapada
+77,Mizoram,Aizawl,Temple
+78,Sikkim,Gangtok,Sikkim Manipal
+79,Tamil Nadu,Chennai,Aerohub
+80,Tamil Nadu,Chennai,Ramapuram
+81,Punjab,Chandigarh,Sector 35
+82,Jharkhand,Ranchi,Ashok Nagar
+83,Jammu and Kashmir,Srinagar,Chanapora
+84,Telangana,Hyderabad,Hydershakote
+85,Goa,Panaji,Vasco Da Gama
+86,Nagaland,Kohima,Kohima
+87,Mizoram,Aizawl,Bazaar
+88,Maharashtra,Mumbai,Thane Panchpakhadi
+89,Karnataka,Bengaluru,Virupakshapura
+90,West Bengal,Kolkata,Diamond Harbour Road
+91,Madhya Pradesh,Indore,Indore
+92,Assam,Guwahati,Lokhra
+93,West Bengal,Kolkata,Barrackpore Trunk Rd
+94,West Bengal,Kolkata,Bangur
+95,Delhi,New Delhi,Sector 61
+96,Delhi,New Delhi,Sector 66
+97,Punjab,Chandigarh,Panchkula
+98,Kerala,Kochi,Piravom
+99,Delhi,New Delhi,Crossings Republik Township
+100,Delhi,New Delhi,Pacific Mall
+101,Rajasthan,Jaipur,Machawa
+102,Odisha,Bhubaneswar,Jagmohan Nagar
+103,Odisha,Bhubaneswar,Patia
+104,Telangana,Hyderabad,shamshabaad
+105,Uttar Pradesh,Lucknow,"Phoenix Palassio, Gomti Nagar"
+106,West Bengal,Kolkata,Alipore
+107,Chhattisgarh,Raipur,Magneto The Mall
+108,Tripura,Agartala,Dom_Only_Agartala
+109,West Bengal,Kolkata,Lake Town
+110,Gujarat,Ahmedabad,Near Science City
+111,Punjab,Chandigarh,Tarf Kumbra
+112,Punjab,Chandigarh,Sector 8 Panchkula
+113,Punjab,Chandigarh,Sector 5
+114,Punjab,Chandigarh,Sector 10 Panchkula
+115,Kerala,Kochi,Pallimukku
+116,Himachal Pradesh,Shimla,Tehsil Shimla
+117,Himachal Pradesh,Shimla,South Shimla
+118,Maharashtra,Mumbai,Ulave
+119,Maharashtra,Mumbai,sector 21
+120,Karnataka,Bengaluru,Yelahanka New
+121,Madhya Pradesh,Indore,DHENU MARKET
+122,Assam,Guwahati,Gorchuk
+123,Delhi,New Delhi,Sector 16
+124,Delhi,New Delhi,Sector 37
+125,Delhi,New Delhi,Sector 21C
+126,Delhi,New Delhi,SECTOR-31
+127,Jammu and Kashmir,Srinagar,"Lal Chowk,Gurudwara complex"
+128,Jammu and Kashmir,Srinagar,Residency Road
+129,Jammu and Kashmir,Srinagar,Kursu
+130,Tripura,Agartala,Circuit House
+131,Karnataka,Bengaluru,Mysore Road
+132,West Bengal,Kolkata,Diamond Harbour
+133,Madhya Pradesh,Indore,Pushp Vihar Colony
+134,Telangana,Hyderabad,Kapra
+135,Haryana,Gurgaon,Maitra Complex
+136,Karnataka,Bengaluru,Peenya
+137,Rajasthan,Jaipur,Kadam Vihar
+138,Gujarat,Ahmedabad,Rangat Green Memories
+139,Odisha,Bhubaneswar,Kalinga Nagar
+140,Uttarakhand,Dehradun,"Mall Of Dehradun , Miyanwala"
+141,Karnataka,Bengaluru,Kaikondrahalli
+142,Gujarat,Ahmedabad,Vaishno Devi Circle
+143,Gujarat,Ahmedabad,Adalaj
+144,Uttarakhand,Dehradun,Rajeshwar nagar
+145,Tamil Nadu,Chennai,Pidarithangal
+146,Tamil Nadu,Chennai,Guindy Kathipara Bridge
+147,Uttar Pradesh,Lucknow,Aashiana
+148,Haryana,Gurgaon,Lado Sarai
+149,Goa,Panaji,Assagao
+150,Goa,Panaji,Bouta Waddo
+151,Nagaland,Kohima,Jail Road
+152,Telangana,Hyderabad,Shanti Nagar
+153,Madhya Pradesh,Indore,Transport Nagar
+154,Madhya Pradesh,Indore,Rajendra Nagar
+155,Goa,Panaji,Dabolim
+156,Jammu and Kashmir,Srinagar,Islamia College
+157,Mizoram,Aizawl,Zotlang Peng
+158,Mizoram,Aizawl,Aizawl
+159,Mizoram,Aizawl,Sanadhi Building
+160,Gujarat,Ahmedabad,GOTA
+161,Gujarat,Ahmedabad,CROSS ROAD
+162,Maharashtra,Mumbai,Ghansoli
+163,Chhattisgarh,Raipur,Tatibandh
+164,Tamil Nadu,Chennai,Tondiarpet
+165,Delhi,New Delhi,Faridabad
+166,Telangana,Hyderabad,ICRISAT Colony
+167,Punjab,Chandigarh,Sector 34
+168,Punjab,Chandigarh,Sector 40
+169,Jammu and Kashmir,Srinagar,JawaharNagar
+170,Jammu and Kashmir,Srinagar,Sanatnagar
+171,Tamil Nadu,Chennai,Velachery
+172,Delhi,New Delhi,Rohini
+173,Uttar Pradesh,Lucknow,Vikas Nagar
+174,Uttar Pradesh,Lucknow,Lucknow
+175,Uttar Pradesh,Lucknow,Vrindavan Colony
+176,Uttar Pradesh,Lucknow,Hariharpur
+177,Uttar Pradesh,Lucknow,Ahmamau
+178,Uttar Pradesh,Lucknow,Land Mark Square Commercial Complex
+179,Uttar Pradesh,Lucknow,Crown mall Lucknow
+180,Uttar Pradesh,Lucknow,Crown Mall
+181,Kerala,Kochi,Edappally
+182,Kerala,Kochi,Kacheripadi
+183,Goa,Panaji,Nor_Baga-Calangute
+184,West Bengal,Kolkata,Gandhi Road
+185,West Bengal,Kolkata,Harish Mukherjee Road
+186,Punjab,Chandigarh,Sahibzada Ajit Singh Nagar Mohali
+187,Madhya Pradesh,Indore,Sapna Sangeeta mall
+188,Madhya Pradesh,Indore,Bhavarkua
+189,Madhya Pradesh,Indore,Bhawarkuan Main Road
+190,Kerala,Kochi,Kalavamcodam
+191,Jharkhand,Ranchi,Namkum
+192,Mizoram,Aizawl,Aizwal
+193,Assam,Guwahati,Beltola
+194,Gujarat,Ahmedabad,Hebatpur
+195,Punjab,Chandigarh,Phase 10
+196,Karnataka,Bengaluru,Sarjapur-Marathahalli Road
+197,Gujarat,Ahmedabad,Bopal
+198,Tamil Nadu,Chennai,Kellys
+199,Haryana,Gurgaon,Sec-4 (Huda)
+200,Uttarakhand,Dehradun,Hathibarkala Salwala
+201,Meghalaya,Shillong,Upper Nongthymmai
+202,Meghalaya,Shillong,Laban
+203,Karnataka,Bengaluru,Jawaharlal Nehru Road
+204,Karnataka,Bengaluru,Uttarahalli
+205,Punjab,Chandigarh,East Chandigarh
+206,Madhya Pradesh,Indore,Talawali
+207,Madhya Pradesh,Indore,Phoenix Citadel Mall
+208,Madhya Pradesh,Indore,NEAR VIRANDAVAN RESTAURANT
+209,Madhya Pradesh,Indore,Ram Nagar
+210,Chhattisgarh,Raipur,Katora Talab
+211,Chhattisgarh,Raipur,Pachpedi Naka
+212,Manipur,Imphal,Imphal
+213,Telangana,Hyderabad,Rambagh Colony
+214,Rajasthan,Jaipur,Shashtri Nagar
+215,Uttar Pradesh,Lucknow,Arjunganj
+216,Maharashtra,Mumbai,Thane West
+217,West Bengal,Kolkata,Barasat
+218,Gujarat,Ahmedabad,Naroda
+219,Gujarat,Ahmedabad,Majestic Law Garden
+220,Bihar,Patna,Kurji
+221,Assam,Guwahati,Ganeshguri
+222,Tripura,Agartala,Laxmi Narayan Bari Road
+223,West Bengal,Kolkata,Behala Shakuntala Park
+224,Madhya Pradesh,Indore,South Tukoganj
+225,Assam,Guwahati,Zoo Tiniali
+226,Jammu and Kashmir,Srinagar,Munawarabad
+227,Jammu and Kashmir,Srinagar,Boulevard
+228,Jammu and Kashmir,Srinagar,Rajbagh
+229,Tamil Nadu,Chennai,Guindy Industrial Estate
+230,Delhi,New Delhi,Greenfields
+231,Jammu and Kashmir,Srinagar,Padshahi Bagh
+232,Tripura,Agartala,Gurkhabosti
+233,Uttarakhand,Dehradun,Culinary Central 72
+234,Tamil Nadu,Chennai,Nehru Nagar
+235,Tamil Nadu,Chennai,Muthamzhil Nagar
+236,Delhi,New Delhi,Sector 73
+237,Uttar Pradesh,Lucknow,Indra Nagar
+238,Haryana,Gurgaon,Chhatarpur
+239,Kerala,Kochi,Kakkanad
+240,Kerala,Kochi,Ernakulam
+241,Goa,Panaji,Anjuna
+242,Goa,Panaji,St Anthonys Apartments
+243,Karnataka,Bengaluru,Varthur Gunjur
+244,Gujarat,Ahmedabad,Gandhinagar
+245,Odisha,Bhubaneswar,Mallick Complex
+246,Mizoram,Aizawl,Zarkawt
+247,Mizoram,Aizawl,Bowngkawn
+248,Karnataka,Bengaluru,R.M.V. 2nd Stage
+249,Punjab,Chandigarh,Industrial Area
+250,West Bengal,Kolkata,Chinar Park
+251,Madhya Pradesh,Indore,Madhumilan Square
+252,Kerala,Kochi,Kundanoor Maradu
+253,Nagaland,Kohima,Kohima Locality
+254,Mizoram,Aizawl,Laitan
+255,Mizoram,Aizawl,Upper Republic
+256,Punjab,Chandigarh,Sector 35 C
+257,Delhi,New Delhi,Indirapuram
+258,Delhi,New Delhi,HUDA SHOPPING COMPLEX
+259,Punjab,Chandigarh,KC Cross Road
+260,Kerala,Kochi,Kochi
+261,Rajasthan,Jaipur,Sector 7
+262,Rajasthan,Jaipur,Khatipura
+263,Tamil Nadu,Chennai,Chennai
+264,Gujarat,Ahmedabad,"GF 1,2 MAHAVIR TOWER"
+265,Gujarat,Ahmedabad,Celebration City Centre Bopal
+266,Odisha,Bhubaneswar,Baxi Bazar
+267,Uttarakhand,Dehradun,Malsi
+268,Tripura,Agartala,Amtali Area
+269,Karnataka,Bengaluru,Kengeri
+270,Tamil Nadu,Chennai,Perambur
+271,Haryana,Gurgaon,Vasanth Kunj
+272,Uttarakhand,Dehradun,Chironwali
+273,Meghalaya,Shillong,Polo
+274,Tamil Nadu,Chennai,Nanganallur
+275,Uttar Pradesh,Lucknow,Ashiyana
+276,Kerala,Kochi,Vyttila
+277,Kerala,Kochi,Kaloor
+278,Meghalaya,Shillong,Police Bazaar
+279,Gujarat,Ahmedabad,Prahlad Nagar
+280,Rajasthan,Jaipur,Durgapura
+281,Maharashtra,Mumbai,Navi Mumbai
+282,Gujarat,Ahmedabad,Nikol
+283,Rajasthan,Jaipur,Adarsh Nagar
+284,Bihar,Patna,Vivek Vihar Colony
+285,Bihar,Patna,Vaishali
+286,Tamil Nadu,Chennai,Porur
+287,Delhi,New Delhi,Sector 31
+288,Delhi,New Delhi,Sector 16_FBD
+289,Telangana,Hyderabad,Miyapur
+290,Punjab,Chandigarh,Zirakpur
+291,Punjab,Chandigarh,Mohali
+292,Punjab,Chandigarh,SECTOR 82
+293,Jammu and Kashmir,Srinagar,City Walk
+294,Karnataka,Bengaluru,Kanakapura
+295,Telangana,Hyderabad,Pocharam
+296,West Bengal,Kolkata,Chowringhee Mansions
+297,Punjab,Chandigarh,Phase 2
+298,Punjab,Chandigarh,VR Shopping Mall
+299,Kerala,Kochi,Nettoor
+300,West Bengal,Kolkata,Jessore Rd
+301,West Bengal,Kolkata,Kestopur
+302,Delhi,New Delhi,Sector 76
+303,West Bengal,Kolkata,Behala
+304,Assam,Guwahati,GS Road
+305,Jammu and Kashmir,Srinagar,Humhama
+306,Meghalaya,Shillong,MES
+307,Delhi,New Delhi,Navyug Market
+308,Rajasthan,Jaipur,"G.T "
+309,Rajasthan,Jaipur,Kanji Nagar
+310,Odisha,Bhubaneswar,DN Regalia
+311,Tripura,Agartala,Udaipur
+312,Manipur,Imphal,Keishamthong
+313,Rajasthan,Jaipur,Vidhyadhar
+314,Uttar Pradesh,Lucknow,Phoenix Mall
+315,Madhya Pradesh,Indore,Bypass South
+316,Telangana,Hyderabad,Ecil
+317,Haryana,Gurgaon,CONSCIENT ONE
+318,Manipur,Imphal,Thangapat
+319,Manipur,Imphal,Keishampat
+320,Tamil Nadu,Chennai,Chrompet
+321,Delhi,New Delhi,Shahberi
+322,Telangana,Hyderabad,Kapil Tower
+323,Uttar Pradesh,Lucknow,Vrindavan
+324,Rajasthan,Jaipur,Malviya Nagar
+325,Uttar Pradesh,Lucknow,Bbd
+326,Meghalaya,Shillong,Nongthymmai Nongkhyriem
+327,Maharashtra,Mumbai,Dombivli East
+328,Maharashtra,Mumbai,Vashi
+329,Chhattisgarh,Raipur,Labhandi
+330,Chhattisgarh,Raipur,Civil Lines
+331,Chhattisgarh,Raipur,Wrd 30. Shankar Nagar
+332,Tamil Nadu,Chennai,Keelkattalai
+333,Delhi,New Delhi,Charmwood Village
+334,Punjab,Chandigarh,Greater Mohali
+335,Punjab,Chandigarh,Sector 38
+336,Punjab,Chandigarh,Sector 16
+337,Jharkhand,Ranchi,Churuwala
+338,Jharkhand,Ranchi,Mesra
+339,Assam,Guwahati,Jalukbari
+340,Tripura,Agartala,North Gate
+341,Karnataka,Bengaluru,Mathikere
+342,Karnataka,Bengaluru,Navaratan Gardens
+343,Telangana,Hyderabad,aramghar
+344,Uttar Pradesh,Lucknow,Sadar Bazaar
+345,Punjab,Chandigarh,DESU MAJRA
+346,West Bengal,Kolkata,Eco Space
+347,West Bengal,Kolkata,Dumdum
+348,Madhya Pradesh,Indore,Treasure Island Indore
+349,Jharkhand,Ranchi,Doranda
+350,Nagaland,Kohima,High School Colony
+351,Mizoram,Aizawl,Zodin
+352,Karnataka,Bengaluru,Vidyaranyapura
+353,Assam,Guwahati,Christian Basti
+354,West Bengal,Kolkata,Belgharia
+355,Punjab,Chandigarh,Sector 66A
+356,Punjab,Chandigarh,Manimajra
+357,Kerala,Kochi,Kolenchery
+358,Karnataka,Bengaluru,Kengeri Satlite Town
+359,Gujarat,Ahmedabad,South Bopal
+360,Rajasthan,Jaipur,Gopalpura
+361,Karnataka,Bengaluru,M.S.Ramaiah Enclave
+362,Karnataka,Bengaluru,maruti layout
+363,Tamil Nadu,Chennai,Purasawalkam
+364,Gujarat,Ahmedabad,Navrangpura
+365,Uttarakhand,Dehradun,Oasis Mall
+366,Uttarakhand,Dehradun,Shahastradhara
+367,Uttarakhand,Dehradun,Nalapani Chowk
+368,Telangana,Hyderabad,Gandipet Mandal
+369,Telangana,Hyderabad,Mahaveer Road Gaganpahad
+370,Uttar Pradesh,Lucknow,VIBHUTI KHAND
+371,Uttar Pradesh,Lucknow,Jopling Road
+372,West Bengal,Kolkata,STATION ROAD
+373,Bihar,Patna,Kumhrar
+374,Bihar,Patna,"UNO Business Center, Patliputra"
+375,Bihar,Patna,Sri Krishnapuri
+376,Tripura,Agartala,Kaman Chowmuhani
+377,Tripura,Agartala,Post Office Chowmuhani
+378,Madhya Pradesh,Indore,Satya Sai Square
+379,Telangana,Hyderabad,Narsingi FC
+380,Chhattisgarh,Raipur,Telibandha Square
+381,Uttarakhand,Dehradun,Central Hope Town
+382,Uttarakhand,Dehradun,Bidholi
+383,Manipur,Imphal,Bamon Leikai
+384,Tamil Nadu,Chennai,Thirumazhisai
+385,Delhi,New Delhi,Sector 19
+386,Assam,Guwahati,Maligaon
+387,Jammu and Kashmir,Srinagar,Baghat Barzulla
+388,Tripura,Agartala,HGB Road
+389,Karnataka,Bengaluru,"Sanjay Nagar, New BEL Road"
+390,Karnataka,Bengaluru,HMT Layout
+391,Karnataka,Bengaluru,J P Nagar
+392,West Bengal,Kolkata,Mahamayatala
+393,Telangana,Hyderabad,PEERZADIGUDA
+394,Madhya Pradesh,Indore,TI MALL
+395,Jharkhand,Ranchi,Bariatu
+396,Jharkhand,Ranchi,CIRCULAR RD
+397,Jammu and Kashmir,Srinagar,Nigeen
+398,Nagaland,Kohima,Old NST
+399,Nagaland,Kohima,Elite Complex
+400,Rajasthan,Jaipur,C Scheme
+401,Rajasthan,Jaipur,Sahakar Marg
+402,Chhattisgarh,Raipur,Shankar Nagar
+403,Mizoram,Aizawl,Only_Dominos_Aizawl
+404,Sikkim,Gangtok,Baluwakhani
+405,Tamil Nadu,Chennai,Poonamallee
+406,Tamil Nadu,Chennai,Mangadu
+407,Telangana,Hyderabad,Lingampally & Nallagandla
+408,Delhi,New Delhi,PACIFIC MALL DWARKA
+409,Rajasthan,Jaipur,Dhaba 14
+410,Tamil Nadu,Chennai,Kodungaiyur
+411,Odisha,Bhubaneswar,ITER Road
+412,Odisha,Bhubaneswar,Nayapalli
+413,Tripura,Agartala,Hapania
+414,Tripura,Agartala,Lal Bahudur Chowmuhani
+415,Manipur,Imphal,Moirangkhom
+416,Maharashtra,Mumbai,Safal park
+417,Karnataka,Bengaluru,"Skywards Tech Park, Bangalore"
+418,Karnataka,Bengaluru,Gopalan Arcade Mall
+419,West Bengal,Kolkata,Kalindi Housing
+420,Telangana,Hyderabad,Kondapur
+421,Telangana,Hyderabad,A. S. Rao Nagar
+422,Odisha,Bhubaneswar,CUTTACK
+423,Karnataka,Bengaluru,WHITEFIELD
+424,Delhi,New Delhi,Kakrola
+425,Rajasthan,Jaipur,Raja Park
+426,Gujarat,Ahmedabad,Sindhu Bhavan
+427,Uttarakhand,Dehradun,Mall of Dehradun
+428,Tripura,Agartala,BATTALA BAZAR
+429,Rajasthan,Jaipur,Sanganer
+430,Rajasthan,Jaipur,Hans Vihar
+431,Haryana,Gurgaon,MG Road
+432,Meghalaya,Shillong,Oakland Road
+433,Tamil Nadu,Chennai,Bhaikadai
+434,Delhi,New Delhi,M3M MARKET
+435,Uttar Pradesh,Lucknow,Mahanagar
+436,Uttar Pradesh,Lucknow,Indira Nagar
+437,Kerala,Kochi,Thrikkakara
+438,Himachal Pradesh,Shimla,Solan Town
+439,Goa,Panaji,Mapusa
+440,Meghalaya,Shillong,Dhankheti
+441,Karnataka,Bengaluru,Gunjur Village
+442,Maharashtra,Mumbai,Brahmand
+443,Bihar,Patna,Srikrishnapuri
+444,Chhattisgarh,Raipur,Labhandih
+445,Chhattisgarh,Raipur,Chakan
+446,Chhattisgarh,Raipur,Govind Nagar
+447,Telangana,Hyderabad,Hafeezpet
+448,Punjab,Chandigarh,Aero Arcade
+449,Jammu and Kashmir,Srinagar,Food Souk
+450,Telangana,Hyderabad,Attapur
+451,Telangana,Hyderabad,Uppal
+452,Punjab,Chandigarh,Abdullapur
+453,West Bengal,Kolkata,Rajarhat
+454,Goa,Panaji,Coutinho Vaddo Vagator
+455,Assam,Guwahati,Mirza
+456,Karnataka,Bengaluru,vijayanagar
+457,West Bengal,Kolkata,Madhyamgram
+458,Punjab,Chandigarh,Sector 36D
+459,Punjab,Chandigarh,Opposite Panchkula Bus Stand
+460,Telangana,Hyderabad,Meerpet
+461,Karnataka,Bengaluru,Bettadasanapura
+462,Assam,Guwahati,Narengi
+463,Chhattisgarh,Raipur,Mahaveer Nagar
+464,Karnataka,Bengaluru,Vijay Nagar
+465,West Bengal,Kolkata,Batanagar
+466,West Bengal,Kolkata,MAHESHTALA MUNICIPALITY
+467,Telangana,Hyderabad,Nizampet
+468,Chhattisgarh,Raipur,Samta Housing Construction
+469,Karnataka,Bengaluru,KENGERI UPANAGAR
+470,Karnataka,Bengaluru,Bellandur Sarjapur
+471,Karnataka,Bengaluru,Sompura
+472,Gujarat,Ahmedabad,Ambli
+473,Gujarat,Ahmedabad,Sindhu Bhavan Raod Near TAJ
+474,Maharashtra,Mumbai,Thane
+475,Rajasthan,Jaipur,Jagatpura
+476,Uttarakhand,Dehradun,Doiwala
+477,Uttarakhand,Dehradun,Karanpur
+478,Meghalaya,Shillong,Laitumkhrah
+479,Telangana,Hyderabad,Gachibowli
+480,Delhi,New Delhi,Sector 62
+481,Uttar Pradesh,Lucknow,Semra
+482,Uttar Pradesh,Lucknow,Khurram Nagar
+483,Goa,Panaji,Mazal Waddo
+484,Gujarat,Ahmedabad,Shantigram
+485,Maharashtra,Mumbai,Airoli
+486,Maharashtra,Mumbai,Hiranandani Estate
+487,Gujarat,Ahmedabad,Science City
+488,Bihar,Patna,Sri Krishna Puri
+489,Bihar,Patna,Patliputra Colony
+490,Bihar,Patna,Anandpuri
+491,Bihar,Patna,near vaishali golambar road
+492,Chhattisgarh,Raipur,magnato the mall
+493,Sikkim,Gangtok,West Point
+494,Delhi,New Delhi,Marengo Asia Hospitals
+495,Telangana,Hyderabad,GSM Mall
+496,Punjab,Chandigarh,Jal Vayu Vihar
+497,Punjab,Chandigarh,Sector 36
+498,Punjab,Chandigarh,VIP Road
+499,Jharkhand,Ranchi,Main Road
+500,Assam,Guwahati,NCS Square Mall
+501,Jammu and Kashmir,Srinagar,Nowgam
+502,Jammu and Kashmir,Srinagar,Natipora
+503,Karnataka,Bengaluru,Bannerghatta Road
+504,Telangana,Hyderabad,New Malakpet
+505,Telangana,Hyderabad,Boduppal
+506,Madhya Pradesh,Indore,Sudama Nagar
+507,Madhya Pradesh,Indore,Gram Tejpur Gadbadi Pulia
+508,Kerala,Kochi,Pachalam Junction
+509,Jharkhand,Ranchi,Hindpiri
+510,Uttar Pradesh,Lucknow,Jankipuram
+511,Tamil Nadu,Chennai,Padur
+512,Kerala,Kochi,EDAPPALLY.P.O
+513,Himachal Pradesh,Shimla,Mall Road Solan
+514,Madhya Pradesh,Indore,RNT Marg
+515,Jammu and Kashmir,Srinagar,Khayam
+516,Jammu and Kashmir,Srinagar,Habak
+517,Punjab,Chandigarh,Sector 11 Panchkula
+518,Punjab,Chandigarh,Sector 125 Mohali
+519,Kerala,Kochi,MG Road
+520,Kerala,Kochi,Ravipuram
+521,Karnataka,Bengaluru,Kengeri Satellite Town
+522,Gujarat,Ahmedabad,Extension Road
+523,Maharashtra,Mumbai,Lodha Vesta A-B
+524,Haryana,Gurgaon,VASANT VIHAR
+525,Himachal Pradesh,Shimla,Longwood
+526,Manipur,Imphal,Lamphel
+527,Karnataka,Bengaluru,Jalahalli Cross
+528,Delhi,New Delhi,Gaur City
+529,Delhi,New Delhi,Uttam Nagar
+530,Gujarat,Ahmedabad,Prem Chand Nagar
+531,Tripura,Agartala,Krishna Nagar
+532,Tripura,Agartala,Nagerjala
+533,Bihar,Patna,Kankarbagh
+534,Bihar,Patna,Adarsh Colony
+535,Assam,Guwahati,BIRKUCHI
+536,Tripura,Agartala,Kalyani
+537,West Bengal,Kolkata,Chowringhee
+538,Madhya Pradesh,Indore,TILAK NAGAR
+539,Telangana,Hyderabad,Kokapet
+540,Odisha,Bhubaneswar,Pandaba Nagar
+541,Uttarakhand,Dehradun,Bhaniyawala
+542,Tamil Nadu,Chennai,Aero hub
+543,Tamil Nadu,Chennai,Pammal main road
+544,Tamil Nadu,Chennai,Pammal
+545,Tamil Nadu,Chennai,Nazarathpettai
+546,Delhi,New Delhi,Inder Colony
+547,Delhi,New Delhi,Vaishali
+548,Telangana,Hyderabad,Chandanagar
+549,Punjab,Chandigarh,Sector 22
+550,Jharkhand,Ranchi,Kanke Road
+551,Jammu and Kashmir,Srinagar,City Mall - Lal Chowk
+552,Jammu and Kashmir,Srinagar,Gogji Bagh
+553,Tripura,Agartala,Gurkhabasti
+554,Tripura,Agartala,Dhaleswar
+555,Tripura,Agartala,Laxminarayan Bari Road
+556,Karnataka,Bengaluru,Jalahalli-Peenya
+557,Telangana,Hyderabad,Katedan
+558,Telangana,Hyderabad,Narapally
+559,West Bengal,Kolkata,RAJPUR-SONARPUR MUNICIPALITY
+560,West Bengal,Kolkata,Narendrapur
+561,Punjab,Chandigarh,Mohali Kharar Road Mohali
+562,Punjab,Chandigarh,Sector 40 Chd
+563,Telangana,Hyderabad,Nanakramguda
+564,West Bengal,Kolkata,Salt Lake
+565,Madhya Pradesh,Indore,Khatiwala
+566,Madhya Pradesh,Indore,Old Palasia
+567,Goa,Panaji,Mapusa Municipal Market
+568,Goa,Panaji,Bogmalo
+569,Nagaland,Kohima,Phoolbari
+570,Karnataka,Bengaluru,Anekal
+571,Karnataka,Bengaluru,Sarjapur Road
+572,Maharashtra,Mumbai,Kopar Khairane
+573,Gujarat,Ahmedabad,Ugti Dham
+574,Rajasthan,Jaipur,Bani Park
+575,Rajasthan,Jaipur,Lal Kothi
+576,Rajasthan,Jaipur,Civil Lines
+577,Delhi,New Delhi,Gaur City 1
+578,Telangana,Hyderabad,Neo Aparna Mall
+579,Uttar Pradesh,Lucknow,Sapru Marg
+580,Uttar Pradesh,Lucknow,Vrindavan Yojana
+581,Tamil Nadu,Chennai,Navalur
+582,Goa,Panaji,Calangute
+583,Karnataka,Bengaluru,yelahanka
+584,Karnataka,Bengaluru,Yelhanka
+585,Karnataka,Bengaluru,Sahakara Nagar
+586,West Bengal,Kolkata,Barisha
+587,Jammu and Kashmir,Srinagar,Rainawari
+588,Punjab,Chandigarh,Sector 67 Mohali
+589,Manipur,Imphal,Thangmeiband
+590,Delhi,New Delhi,Nehru Nagar
+591,Tamil Nadu,Chennai,Vidya Nagar
+592,Tamil Nadu,Chennai,Thyagaraya Nagar
+593,Odisha,Bhubaneswar,Khan Nagar
+594,Maharashtra,Mumbai,HAWRE CENTURION MALL
+595,Telangana,Hyderabad,Forest Dept Colony
+596,Bihar,Patna,Patna City
+597,Chhattisgarh,Raipur,Zora Mall
+598,Tripura,Agartala,Heritage park
+599,Karnataka,Bengaluru,Forum Mall
+600,Karnataka,Bengaluru,Global Mall
+601,Madhya Pradesh,Indore,PHOENIX CITADEL
+602,Madhya Pradesh,Indore,Scheme 54
+603,Telangana,Hyderabad,Yapral Kowkoor
+604,Odisha,Bhubaneswar,Link Road
+605,Uttarakhand,Dehradun,Selakui
+606,Karnataka,Bengaluru,Jalahalli
+607,Delhi,New Delhi,Raj Nagar
+608,Delhi,New Delhi,Pratap Vihar
+609,Delhi,New Delhi,Crossing Republic
+610,Delhi,New Delhi,Gaur City 2
+611,Delhi,New Delhi,Ghaziabad
+612,Tamil Nadu,Chennai,Anna Nagar
+613,Tamil Nadu,Chennai,Annanagar
+614,Tamil Nadu,Chennai,Kancheepuram
+615,Gujarat,Ahmedabad,Vastrapur
+616,Gujarat,Ahmedabad,Ambawadi
+617,Odisha,Bhubaneswar,Baramunda
+618,Uttarakhand,Dehradun,"Mall Of Dehradun, Haridwar Road"
+619,Uttarakhand,Dehradun,PACIFIC HILLS
+620,Karnataka,Bengaluru,Rr Nagar
+621,Madhya Pradesh,Indore,Nipania
+622,Madhya Pradesh,Indore,Vijaya Nagar
+623,Haryana,Gurgaon,New Palam Vihar
+624,Uttarakhand,Dehradun,Vikas Nagar
+625,Manipur,Imphal,Thangal Bazar
+626,Manipur,Imphal,Checkon
+627,Manipur,Imphal,"Nagaram "
+628,Manipur,Imphal,Wangkhei
+629,Maharashtra,Mumbai,ULWE SECTOR 19
+630,Tamil Nadu,Chennai,Chromepet
+631,Karnataka,Bengaluru,Yelahanka New Town
+632,Madhya Pradesh,Indore,Bicholi Mardana
+633,Assam,Guwahati,Zoo Narengi Road
+634,Kerala,Kochi,Palarivattom
+635,Kerala,Kochi,Lulu Kochi
+636,Himachal Pradesh,Shimla,Sanjauli
+637,Telangana,Hyderabad,VATTINAGULAPALLI
+638,Telangana,Hyderabad,Malakpet
+639,Telangana,Hyderabad,M-Qube Mall
+640,Telangana,Hyderabad,Pebel City
+641,Assam,Guwahati,Silpukhuri
+642,Assam,Guwahati,Kala Pahar
+643,Chhattisgarh,Raipur,Vishal Nagar
+644,Tripura,Agartala,Battala
+645,Tripura,Agartala,Jay Nagar
+646,Tripura,Agartala,Lal Bahadur
+647,Gujarat,Ahmedabad,Bodakdev
+648,Gujarat,Ahmedabad,Shivam Trade Centre
+649,Maharashtra,Mumbai,CHITALSAR MANPADA
+650,Rajasthan,Jaipur,Kukas
+651,Rajasthan,Jaipur,Jaipur Textile Market
+652,Haryana,Gurgaon,Sector 5
+653,Haryana,Gurgaon,Old Gurgaon (Zone 6)
+654,Haryana,Gurgaon,Vasant Kunj
+655,Himachal Pradesh,Shimla,Shilli
+656,Meghalaya,Shillong,Fire Brigade
+657,Delhi,New Delhi,Unity Mall
+658,Tamil Nadu,Chennai,Thoraipakkam
+659,Uttar Pradesh,Lucknow,Chinhat
+660,Haryana,Gurgaon,CHHATTARPUR
+661,Kerala,Kochi,Vazakala
+662,Goa,Panaji,"Opp Bharat Petrol Pump,Bamman Vaddo, Siolim"
+663,Goa,Panaji,Baga Calangute
+664,Maharashtra,Mumbai,Rainbow Apartments
+665,Gujarat,Ahmedabad,Phoenix Palladium
+666,Chhattisgarh,Raipur,Pandri
+667,Punjab,Chandigarh,Sunny Enclave
+668,Punjab,Chandigarh,Gold Square
+669,Punjab,Chandigarh,SECTOR 24
+670,Jammu and Kashmir,Srinagar,Bohri Kadal
+671,Tamil Nadu,Chennai,Arekere
+672,Tamil Nadu,Chennai,Pallavaram
+673,Punjab,Chandigarh,Chandigarh
+674,Jammu and Kashmir,Srinagar,Rambagh
+675,Jammu and Kashmir,Srinagar,Lal Chowk
+676,Jammu and Kashmir,Srinagar,Sanath Nagar
+677,Odisha,Bhubaneswar,Sutahat
+678,Manipur,Imphal,Singjamei
+679,Gujarat,Ahmedabad,CG Road
+680,Madhya Pradesh,Indore,Phoenix
+681,Madhya Pradesh,Indore,Dewas City
+682,Telangana,Hyderabad,Manchirevula
+683,Haryana,Gurgaon,Sector-106
+684,Uttarakhand,Dehradun,Prem Nagar
+685,Uttarakhand,Dehradun,Township Bidholi
+686,Manipur,Imphal,Khuyathong
+687,Tamil Nadu,Chennai,Keelkatalai
+688,Delhi,New Delhi,Sector 21
+689,Delhi,New Delhi,Tughlakabad Institutional Area
+690,Telangana,Hyderabad,Madinaguda
+691,Punjab,Chandigarh,New Chd
+692,Punjab,Chandigarh,Sector 9
+693,Punjab,Chandigarh,Sector 67
+694,Punjab,Chandigarh,SAS Nagar
+695,Karnataka,Bengaluru,Kanakapura Road
+696,Punjab,Chandigarh,Sec. 55
+697,Telangana,Hyderabad,Gandipet
+698,West Bengal,Kolkata,Newtown
+699,Madhya Pradesh,Indore,New Palasia
+700,Madhya Pradesh,Indore,Beside Rajnandani Hotel
+701,Madhya Pradesh,Indore,Bypass North
+702,Jharkhand,Ranchi,BLUE DIAMOND
+703,Goa,Panaji,Nor_Baga Calangute
+704,Nagaland,Kohima,BOC
+705,Nagaland,Kohima,Razu Point
+706,Mizoram,Aizawl,Khatla
+707,Tamil Nadu,Chennai,Thandalam
+708,Tamil Nadu,Chennai,"Kattupakkam,Poonamallee"
+709,Uttar Pradesh,Lucknow,Aliganj
+710,Tamil Nadu,Chennai,Egattur
+711,Delhi,New Delhi,Sector 65
+712,Haryana,Gurgaon,Green Park
+713,Delhi,New Delhi,Sector- 21
+714,Karnataka,Bengaluru,SAMSKRUTI GARDENIA
+715,Karnataka,Bengaluru,Kadubeesanahalli
+716,Karnataka,Bengaluru,Varthur
+717,Gujarat,Ahmedabad,Sola
+718,Rajasthan,Jaipur,Johari Bazaar
+719,Rajasthan,Jaipur,Sindhi Camp
+720,Bihar,Patna,Boring Canal Road
+721,Bihar,Patna,Boring Patliputra Road
+722,Chhattisgarh,Raipur,Shyam Nagar
+723,Sikkim,Gangtok,Gairigaon
+724,Maharashtra,Mumbai,Viviana
+725,Madhya Pradesh,Indore,Saket
+726,Assam,Guwahati,UDESHNA
+727,Assam,Guwahati,Guwahati
+728,Jammu and Kashmir,Srinagar,Jahangir Chowk
+729,Punjab,Chandigarh,S.A.S NAGAR MOHALI
+730,Punjab,Chandigarh,Sector 68
+731,Delhi,New Delhi,Cleo County
+732,Punjab,Chandigarh,Sector 9 Panchkula
+733,Punjab,Chandigarh,Sector 20
+734,Kerala,Kochi,MGÂ Road
+735,Kerala,Kochi,Lulu Mall
+736,Himachal Pradesh,Shimla,Mall Road
+737,Himachal Pradesh,Shimla,"Anand Complex, The Mall, Solan"
+738,Sikkim,Gangtok,DISTRICT COURT
+739,Gujarat,Ahmedabad,Satyamev Shivalik
+740,Gujarat,Ahmedabad,Vaishnodevi Circle
+741,Maharashtra,Mumbai,Vasant Vihar
+742,Haryana,Gurgaon,Malviya Nagar
+743,Uttarakhand,Dehradun,Hathibarkala
+744,Meghalaya,Shillong,Laitukhrah main road
+745,Karnataka,Bengaluru,Dasarahalli
+746,Karnataka,Bengaluru,Mathikere- BELÃ‚Âroad
+747,Tamil Nadu,Chennai,Kilpauk
+748,Gujarat,Ahmedabad,Vejalpur
+749,Odisha,Bhubaneswar,Khandagiri
+750,Odisha,Bhubaneswar,CDA Sector 6
+751,Uttarakhand,Dehradun,Dehradun
+752,Uttarakhand,Dehradun,Chukkuwala
+753,Uttarakhand,Dehradun,Subhash Road
+754,Maharashtra,Mumbai,Hawares Centurion
+755,Maharashtra,Mumbai,CBD Belapur
+756,West Bengal,Kolkata,Nemai Bhawan
+757,Bihar,Patna,DRB- BhattaCharya Road
+758,Chhattisgarh,Raipur,MAGNETO MALL
+759,Tripura,Agartala,Palace Compound
+760,Madhya Pradesh,Indore,Khajrana
+761,Madhya Pradesh,Indore,131 Scheme
+762,Madhya Pradesh,Indore,Dewas Locality
+763,Uttar Pradesh,Lucknow,Kamta
+764,Uttar Pradesh,Lucknow,Kamla Nehru Nagar
+765,Haryana,Gurgaon,Sector 109
+766,Haryana,Gurgaon,Near Goga Mandir
+767,Chhattisgarh,Raipur,Avanti Vihar
+768,Manipur,Imphal,Kabo Leika
+769,Karnataka,Bengaluru,Sarjapur
+770,Karnataka,Bengaluru,Junnasandra
+771,Meghalaya,Shillong,Police Bazar
+772,Delhi,New Delhi,Paschim Vihar
+773,Delhi,New Delhi,Shipra Mall Indirapuram
+774,Goa,Panaji,Vagator
+775,Meghalaya,Shillong,Demseiniong
+776,Rajasthan,Jaipur,MI Road
+777,Bihar,Patna,atna Sadar
+778,Odisha,Bhubaneswar,Kalinga Vihar
+779,Tamil Nadu,Chennai,Sriperumbudur
+780,Delhi,New Delhi,Sector 15
+781,Telangana,Hyderabad,Nallagandla Village
+782,Punjab,Chandigarh,Aerocity
+783,Karnataka,Bengaluru,Yeswanthpur
+784,Telangana,Hyderabad,Attapur_Suncity_Bandlaguda
+785,Jharkhand,Ranchi,Jai Prakash Nagar
+786,Jharkhand,Ranchi,Purulia Road
+787,Nagaland,Kohima,High school
+788,Karnataka,Bengaluru,"Hope Farm, Varthur Main Road"
+789,Punjab,Chandigarh,Phase 9 Mohali
+790,Delhi,New Delhi,Sector 12
+791,Punjab,Chandigarh,Sector 21
+792,Kerala,Kochi,Kadavanthra
+793,Maharashtra,Mumbai,Seawoods
+794,West Bengal,Kolkata,Pailan
+795,Madhya Pradesh,Indore,Vijay Nagar
+796,Assam,Guwahati,Azara
+797,Karnataka,Bengaluru,Hesaraghatta
+798,Gujarat,Ahmedabad,Paldi
+799,Odisha,Bhubaneswar,College Square
+800,Manipur,Imphal,Chingamikha
+801,Manipur,Imphal,Sega Road
+802,Manipur,Imphal,Nepra Menjor Road
+803,Maharashtra,Mumbai,Airoli Gigaplex
+804,Karnataka,Bengaluru,Bidadi
+805,Odisha,Bhubaneswar,Choudhury Bazar
+806,Haryana,Gurgaon,NAJAFGARH
+807,Haryana,Gurgaon,Near Shree Bikaner Sweets
+808,Chhattisgarh,Raipur,Samta Colony
+809,Manipur,Imphal,Khurai
+810,Manipur,Imphal,Ghari
+811,Karnataka,Bengaluru,Vajarahalli Gramatana
+812,Telangana,Hyderabad,Narepally
+813,West Bengal,Kolkata,Thakurpukur
+814,Uttar Pradesh,Lucknow,Lulu Mall
+815,Punjab,Chandigarh,West Chd
+816,Punjab,Chandigarh,Sector 15
+817,Punjab,Chandigarh,Sector 37
+818,Telangana,Hyderabad,Narsingi
+819,Telangana,Hyderabad,Bandlaguda
+820,Telangana,Hyderabad,Vanasthalipuram
+821,Jharkhand,Ranchi,Khelgaon
+822,Jharkhand,Ranchi,LALPUR
+823,Jharkhand,Ranchi,Harmu Ranchi
+824,Mizoram,Aizawl,Company peng
+825,Delhi,New Delhi,Sector 16 Faridabad
+826,Punjab,Chandigarh,AiportRoad Mohali
+827,Tamil Nadu,Chennai,OMR Navalur
+828,Uttar Pradesh,Lucknow,Gomti Nagar
+829,Uttar Pradesh,Lucknow,Adhar kheda
+830,Haryana,Gurgaon,Chattarpur
+831,Kerala,Kochi,Elamkulam
+832,Meghalaya,Shillong,Keating Road
+833,Karnataka,Bengaluru,Bellandur
+834,Karnataka,Bengaluru,Seege Halli
+835,Maharashtra,Mumbai,Waghbil
+836,Gujarat,Ahmedabad,Ghatlodia
+837,Rajasthan,Jaipur,Axis Mall
+838,Bihar,Patna,Chandra Kutir Complex
+839,Chhattisgarh,Raipur,Purena
+840,Mizoram,Aizawl,Chanmari
+841,Sikkim,Gangtok,"MG Road, Gangtok"
+842,Maharashtra,Mumbai,Nerul
+843,Karnataka,Bengaluru,Sahakar Nagar
+844,West Bengal,Kolkata,MAHATMA GANDHI ROAD
+845,West Bengal,Kolkata,Laketown
+846,West Bengal,Kolkata,Kankurgachi
+847,Punjab,Chandigarh,Airport Road
+848,Punjab,Chandigarh,Phase 5 Mohali
+849,Punjab,Chandigarh,Sector 64
+850,Delhi,New Delhi,Sector 51
+851,Punjab,Chandigarh,Sector 5 MDC Panchkula
+852,Gujarat,Ahmedabad,Palladium
+853,Gujarat,Ahmedabad,Sindhu Bhavan Road
+854,Uttarakhand,Dehradun,Rajpur Road
+855,Rajasthan,Jaipur,Jhotwara
+856,Tamil Nadu,Chennai,Selaivayal
+857,Uttarakhand,Dehradun,Pitambar plaza
+858,Tripura,Agartala,Milan Chakra
+859,Manipur,Imphal,Thangal Bazaar
+860,Manipur,Imphal,Sangaiprou
+861,Maharashtra,Mumbai,SHREEJI PLAZA
+862,Rajasthan,Jaipur,Near Nursery Circle
+863,Bihar,Patna,Pat_Fatuha
+864,Assam,Guwahati,BishnuRavaPath
+865,Tripura,Agartala,Ramnagar
+866,Madhya Pradesh,Indore,Scheme No 74
+867,Odisha,Bhubaneswar,Mal Godown Market
+868,Manipur,Imphal,Takhel Leikai
+869,Jammu and Kashmir,Srinagar,Dalgate
+870,Karnataka,Bengaluru,Yelahanka Sector B
+871,West Bengal,Kolkata,Block A
+872,Assam,Guwahati,Boragaon
+873,Assam,Guwahati,Borbari
+874,Jammu and Kashmir,Srinagar,"Dalgate,opposite ghat no:2"
+875,Jammu and Kashmir,Srinagar,Sonwar
+876,Jammu and Kashmir,Srinagar,Bemina
+877,Punjab,Chandigarh,Industrial Area Phase 1
+878,Delhi,New Delhi,Raj Nagar Extension
+879,Punjab,Chandigarh,Manimazra
+880,Kerala,Kochi,Kacheripady
+881,Gujarat,Ahmedabad,"Sachin Tower, Prahladnagar"
+882,Odisha,Bhubaneswar,Telenga Bazar
+883,Odisha,Bhubaneswar,Darghabazar
+884,Manipur,Imphal,Nagamapal
+885,Maharashtra,Mumbai,BELAPUR
+886,Telangana,Hyderabad,Shamshabad
+887,Bihar,Patna,BAKSHI MOHALLA
+888,Tripura,Agartala,Motor Stand
+889,Tripura,Agartala,Banamalipur
+890,Madhya Pradesh,Indore,Gomti Nagar
+891,Telangana,Hyderabad,ameenpur & Lingampally
+892,Uttar Pradesh,Lucknow,CONCEPT POINT
+893,Odisha,Bhubaneswar,"ZOBRA,CANAL ROAD"
+894,Rajasthan,Jaipur,Bais Godam
+895,Bihar,Patna,Boring Road
+896,Bihar,Patna,ASHIYANA DIGHA ROAD
+897,Bihar,Patna,Rajendra Nagar
+898,Mizoram,Aizawl,Bawngkawn
+899,Sikkim,Gangtok,Gangtok
+900,Tamil Nadu,Chennai,Aerohub East Mall
+901,Delhi,New Delhi,Greenfields_FBD
+902,Telangana,Hyderabad,Sri Durga Colony
+903,Telangana,Hyderabad,Huda Layout
+904,Punjab,Chandigarh,South Mohali
+905,Tripura,Agartala,Motorstand
+906,Tripura,Agartala,Kaman Chowmuhai
+907,Karnataka,Bengaluru,Yeshwantpur
+908,Telangana,Hyderabad,Medipally
+909,Uttar Pradesh,Lucknow,Vrindavan Yojna
+910,Uttar Pradesh,Lucknow,Chowk
+911,Punjab,Chandigarh,Phase 7 Mohali
+912,West Bengal,Kolkata,Eco Park Newtown
+913,Madhya Pradesh,Indore,Race Course Road
+914,Kerala,Kochi,Marad
+915,Kerala,Kochi,Maradu
+916,Goa,Panaji,North Goa
+917,Goa,Panaji,Swatantra Path
+918,Goa,Panaji,Vasco
+919,Nagaland,Kohima,Midland
+920,Mizoram,Aizawl,Bazaar Bungkawn
+921,Delhi,New Delhi,Dwarka
+922,Delhi,New Delhi,NIHANKARI SATSANG BHAWAN
+923,Uttar Pradesh,Lucknow,Nishatganj
+924,Tamil Nadu,Chennai,Siruseri
+925,Tamil Nadu,Chennai,Karapakkam
+926,Delhi,New Delhi,Sector 63
+927,Delhi,New Delhi,Sector 64
+928,Maharashtra,Mumbai,"Seawoods, Merul"
+929,Maharashtra,Mumbai,Vartaknagar Manpada Zone
+930,Madhya Pradesh,Indore,SAKET SQUARE
+931,Assam,Guwahati,Rani Gate
+932,Assam,Guwahati,Hatigaon
+933,Jammu and Kashmir,Srinagar,Zakura
+934,Karnataka,Bengaluru,Banashankari
+935,Karnataka,Bengaluru,Beml Layout
+936,Himachal Pradesh,Shimla,Lakkar Bazar Solan
+937,Rajasthan,Jaipur,Pratap Nagar
+938,Rajasthan,Jaipur,Mansarovar
+939,Haryana,Gurgaon,Old Railway Road
+940,Haryana,Gurgaon,Sector 99
+941,Uttarakhand,Dehradun,Raipur
+942,Uttarakhand,Dehradun,SATYA TOWER
+943,Uttarakhand,Dehradun,Jakhan
+944,Manipur,Imphal,Chingmeirong
+945,Manipur,Imphal,Sagolband
+946,Maharashtra,Mumbai,Panvel City
+947,Telangana,Hyderabad,Santosh nagar
+948,Karnataka,Bengaluru,Electronic City
+949,Karnataka,Bengaluru,Doddathogur Village
+950,Gujarat,Ahmedabad,Isanpur
+951,Assam,Guwahati,Rukmini Gaon
+952,Assam,Guwahati,Jatia
+953,Tripura,Agartala,Shankar Chowmuhani
+954,Tripura,Agartala,Advisor Chowmuhani
+955,Karnataka,Bengaluru,Kanmanike Village
+956,West Bengal,Kolkata,Sodepur
+957,Telangana,Hyderabad,Manikonda
+958,Odisha,Bhubaneswar,Municipal Colony
+959,Haryana,Gurgaon,SECTOR-109
+960,Uttarakhand,Dehradun,Bengali Club
+961,Manipur,Imphal,Kwakeithel
