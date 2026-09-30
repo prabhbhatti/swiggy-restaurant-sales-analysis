@@ -121,4 +121,3 @@ means for the business, plus links to the matching charts in the visuals folder.
 Data Analyst | SQL • Data Storytelling • Business Insights
 
 📫 [LinkedIn](https://www.linkedin.com/in/bhatti-prabhpreet-singh/)
-```
