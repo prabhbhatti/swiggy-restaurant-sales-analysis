@@ -54,15 +54,37 @@ high across the board.
 Swiggy-Restaurant-Analysis/
 │
 ├── README.md                     Project overview (this file)
-├── data/                         Raw and cleaned dataset
-├── sql/                          All SQL queries used in the analysis
-├── visuals/                      Charts and KPI cards
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   │   └── swiggy_data_raw.csv           Original unprocessed dataset
+│   └── processed/
+│       ├── README.md
+│       ├── Swiggy_Data_Cleaned.csv       Cleaned full dataset
+│       ├── dim_category.csv              Category dimension
+│       ├── dim_date.csv                  Date dimension
+│       ├── dim_dish.csv                  Dish dimension
+│       ├── dim_location.csv              Location dimension
+│       ├── dim_restaurant.csv            Restaurant dimension
+│       └── fact_order.csv                Order fact table
+│
+├── docs/
+│   ├── README.md
+│   └── Swiggy_Restaurant Doc.md          Dataset documentation
+│
+├── queries/                              All SQL queries used in the analysis
+│
+├── visuals/                              Charts and KPI cards
 │   ├── KPIs/
 │   ├── Data Validation/
 │   ├── Deep-Dive Analysis/
 │   ├── Location Based Analysis/
 │   └── Food Performance Analysis/
-└── Summary Report.md             Full written report with tables and insights
+│
+└── reports/
+    ├── README.md
+    └── Swiggy Restaurant Summary Report.md   Full written report with tables and insights
 ```
 
 ---
@@ -95,17 +117,8 @@ means for the business, plus links to the matching charts in the visuals folder.
 
 ## 👤 Author
 
-**[Your Name]**
+**[Bhatti Prabhpreet Singh]**
 Data Analyst | SQL • Data Storytelling • Business Insights
 
-📫 [LinkedIn](https://www.linkedin.com/in/bhatti-prabhpreet-singh/) · [Portfolio](prabhbhatti.psb@gmail.com)
+📫 [LinkedIn](https://www.linkedin.com/in/bhatti-prabhpreet-singh/)
 ```
-
----
-
-A few quick things to fill in before you publish:
-1. **Your name, LinkedIn, and portfolio** at the bottom.
-2. **Folder names in the structure** — I guessed `data/` and `sql/`; rename them to match what you actually have.
-3. **The folder tree** uses a plain code block (no dashes) so it renders neatly on GitHub.
-
-Want me to also add a short "How to use this repo" section or a small preview image at the top? Some recruiters like one banner-style visual right under the title.
