@@ -1,281 +1,126 @@
-# Swiggy Restaurant Data: Metadata Summary Report
+# 📊 Swiggy Restaurant Data Analysis — Summary Report
 
-This report holds the full set of results from the Swiggy SQL analysis. Each
-section shows the actual query output in a clean table so the numbers are easy
-to check and compare.
-
-Time period covered: January to August 2025
-Total orders in dataset: 197,401
+**Tools:** SQL (aggregation, grouping, ranking), cloud SQL worksheet for querying
+**Dataset:** 197,401 Swiggy orders across 28 states, January to August 2025
 
 ---
 
-## 1. Business KPIs
+## 1. Executive Summary
+
+This project looks at how food delivery orders behaved on Swiggy across India in
+2025, so we can see where demand comes from, what people order, and what they think
+of it. I used SQL to pull apart nearly 200,000 orders by time, location, food type,
+and rating, then turned the results into simple takeaways.
+
+The main story is clear. Demand is steady and strong all year, but it is heavily
+concentrated. One city and one state pull far ahead of the rest, and a handful of
+big brands drive most of the orders. Customers are also happy, since ratings sit
+high across the board.
+
+**Headline results:**
 
 | KPI | Value |
 |-----|-------|
-| Total Orders | 197,401 |
-| Total Revenue | 53.00 Million INR |
+| Total Orders | 197.4K |
+| Total Revenue | 53.0M INR |
 | Average Dish Price | 268.50 INR |
-| Average Rating | 4.341577 (about 4.34 out of 5) |
+| Average Rating | 4.34 / 5 |
+| States Covered | 28 |
+| Time Period | Jan to Aug 2025 |
 
 ---
 
-## 2. Time Trend Analysis
+## 2. Objectives
 
-### Yearly Orders
-| Year | Total Orders |
-|------|-------------|
-| 2025 | 197,401 |
-
-### Quarterly Orders
-| Year | Quarter | Total Orders |
-|------|---------|-------------|
-| 2025 | Q2 | 74,154 |
-| 2025 | Q1 | 73,084 |
-| 2025 | Q3 | 50,163 |
-
-Note: Q3 is lower only because the data ends in August, so it covers just July
-and August.
-
-### Monthly Orders
-| Month | Total Orders |
-|-------|-------------|
-| January | 25,393 |
-| August | 25,227 |
-| May | 25,188 |
-| July | 24,936 |
-| April | 24,584 |
-| March | 24,400 |
-| June | 24,382 |
-| February | 23,291 |
-
-### Orders by Day of the Week
-| Day | Total Orders |
-|-----|-------------|
-| Saturday | 28,933 |
-| Sunday | 28,469 |
-| Thursday | 28,450 |
-| Wednesday | 28,284 |
-| Friday | 28,284 |
-| Monday | 27,568 |
-| Tuesday | 27,413 |
+1. How does order demand move across the year, month, and week?
+2. Which cities and states drive the most orders and revenue?
+3. Which restaurants, categories, and dishes perform best?
+4. How do customers rate their orders overall?
+5. What price range do most orders fall into?
 
 ---
 
-## 3. Location Analysis
+## 3. Methodology
 
-### Top 10 Cities by Order Volume
-| Rank | City | Total Orders |
-|------|------|-------------|
-| 1 | Bengaluru | 20,072 |
-| 2 | Mumbai | 10,507 |
-| 3 | Hyderabad | 10,308 |
-| 4 | Jaipur | 10,285 |
-| 5 | Lucknow | 10,192 |
-| 6 | New Delhi | 10,191 |
-| 7 | Ahmedabad | 10,175 |
-| 8 | Chandigarh | 10,060 |
-| 9 | Kolkata | 10,044 |
-| 10 | Chennai | 10,042 |
-
-### Revenue by State (All 28 States)
-| Rank | State | Total Revenue (INR) |
-|------|-------|--------------------|
-| 1 | Karnataka | 5,455,887.73 |
-| 2 | Uttar Pradesh | 3,117,359.65 |
-| 3 | Telangana | 3,021,656.62 |
-| 4 | Maharashtra | 3,015,573.35 |
-| 5 | Delhi | 2,829,180.60 |
-| 6 | Gujarat | 2,815,536.27 |
-| 7 | Punjab | 2,804,991.82 |
-| 8 | West Bengal | 2,662,213.76 |
-| 9 | Tamil Nadu | 2,642,594.63 |
-| 10 | Rajasthan | 2,502,833.61 |
-| 11 | Madhya Pradesh | 1,969,962.77 |
-| 12 | Goa | 1,539,479.41 |
-| 13 | Haryana | 1,438,455.54 |
-| 14 | Meghalaya | 1,427,851.75 |
-| 15 | Himachal Pradesh | 1,382,500.18 |
-| 16 | Jammu and Kashmir | 1,322,513.82 |
-| 17 | Uttarakhand | 1,301,699.70 |
-| 18 | Kerala | 1,283,926.46 |
-| 19 | Assam | 1,259,012.24 |
-| 20 | Manipur | 1,254,429.93 |
-| 21 | Bihar | 1,231,696.87 |
-| 22 | Chhattisgarh | 1,226,832.20 |
-| 23 | Jharkhand | 1,197,037.32 |
-| 24 | Odisha | 1,193,584.77 |
-| 25 | Tripura | 1,144,272.46 |
-| 26 | Mizoram | 823,893.99 |
-| 27 | Nagaland | 576,797.60 |
-| 28 | Sikkim | 560,965.42 |
+I worked from a single large order table covering 197,401 records. Using SQL, I
+wrote aggregation queries to group orders by time period, city, state, restaurant,
+category, dish, price band, and rating. I used ranking and sorting to pull out the
+top performers in each area, then calculated the headline KPIs like total revenue
+and average rating. The results were exported into charts and two dashboards so the
+patterns are easy to read at a glance.
 
 ---
 
-## 4. Food Performance Analysis
+## 4. Key Findings & Insights
 
-### Top 5 Categories by Order Volume
-| Rank | Category | Total Orders |
-|------|----------|-------------|
-| 1 | Recommended | 24,097 |
-| 2 | Desserts | 3,582 |
-| 3 | Main Course | 2,983 |
-| 4 | Beverages | 2,682 |
-| 5 | Burgers | 2,538 |
+### 4.1 Time Trends
+> 📊 *See the Time Trends dashboard in `/visuals`*
 
-### Top 10 Restaurants by Order Volume
-| Rank | Restaurant | Total Orders |
-|------|-----------|-------------|
-| 1 | McDonald's | 13,528 |
-| 2 | KFC | 12,957 |
-| 3 | Burger King | 7,115 |
-| 4 | Pizza Hut | 6,529 |
-| 5 | Domino's Pizza | 5,489 |
-| 6 | LunchBox, Meals and Thalis | 4,700 |
-| 7 | Baskin Robbins, Ice Cream Desserts | 4,197 |
-| 8 | Faasos, Wraps, Rolls and Shawarma | 3,256 |
-| 9 | Olio, The Wood Fired Pizzeria | 3,239 |
-| 10 | The Good Bowl | 2,665 |
+Orders stayed remarkably steady all year, sitting between 23K and 25K every month,
+with January the busiest at 25.4K. Weekends were the strongest days, led by Saturday.
 
-### Most Popular Dishes
-| Rank | Dish | Total Orders |
-|------|------|-------------|
-| 1 | Veg Fried Rice | 321 |
-| 2 | Choco Lava Cake | 303 |
-| 3 | Jeera Rice | 265 |
-| 4 | Paneer Butter Masala | 262 |
-| 5 | French Fries | 248 |
-| 6 | Chicken Sausage | 230 |
-| 7 | Chicken Fried Rice | 228 |
-| 8 | Butter Naan | 218 |
-| 9 | Margherita Pizza | 203 |
-| 10 | Green Salad | 197 |
-| 11 | Margherita | 184 |
-| 12 | Dal Makhani | 184 |
-| 13 | Cold Coffee | 182 |
-| 14 | Double Chicken | 180 |
-| 15 | Veggie Supreme | 179 |
-| 16 | Egg Fried Rice | 177 |
-| 17 | Triple Chicken | 173 |
-| 18 | Plain Rice | 169 |
-| 19 | Thai Spicy Chicken | 168 |
-| 20 | Classic Chicken | 168 |
-| 21 | Korean and Thai | 168 |
-| 22 | Indian Tandoori | 168 |
-| 23 | Indian Tandoori | 168 |
-| 24 | Korean Tangy Rice | 167 |
-| 25 | Korean Tangy Chicken | 167 |
-| 26 | Indian Spicy Veg | 167 |
-| 27 | Garlic Naan | 160 |
-| 28 | Masala Dosa | 152 |
-| 29 | Plain Naan | 151 |
-| 30 | Veg Biryani | 150 |
-| 31 | Aloo Paratha | 146 |
-| 32 | Shahi Paneer | 146 |
-| 33 | Veg Pulao | 145 |
-| 34 | Tandoori Paneer | 145 |
-| 35 | Country Feast | 144 |
-| 36 | Chicken Supreme | 142 |
+**What this means:** Demand is stable and predictable, which is good for planning. The
+only real lift comes on weekends, so that is the natural window for promotions and
+extra delivery capacity. The dip in Quarter 3 is not a real drop, it just reflects
+the data ending in August.
 
-Note: A few dish names were partly cut off in the source view, so those have
-been completed to their most likely full name.
+### 4.2 Location
+> 📊 *See the Location dashboard in `/visuals`*
 
-### Cuisine and Category Performance (Orders with Average Rating)
-| Rank | Category | Total Orders | Average Rating |
-|------|----------|-------------|----------------|
-| 1 | Recommended | 24,097 | 4.32 |
-| 2 | Desserts | 3,582 | 4.37 |
-| 3 | Main Course | 2,983 | 4.31 |
-| 4 | Beverages | 2,682 | 4.37 |
-| 5 | Burgers | 2,538 | 4.32 |
-| 6 | Sweets | 1,954 | 4.46 |
-| 7 | McSaver Combos (2 Pc Meals) | 1,884 | 4.41 |
-| 8 | Exclusive Deals (Save upto 40%) | 1,717 | 4.35 |
-| 9 | Starters | 1,692 | 4.30 |
-| 10 | Rolls | 1,652 | 4.25 |
-| 11 | Snacks | 1,438 | 4.31 |
-| 12 | Breads | 1,422 | 4.35 |
-| 13 | Desserts and Beverages | 1,333 | 4.34 |
-| 14 | Burger Combos (3 Pc Meals) | 1,331 | 4.38 |
-| 15 | DOTD | 1,307 | 4.31 |
-| 16 | Value Scoops | 1,272 | 4.38 |
-| 17 | Coffee and Beverages (Hot and Cold) | 1,256 | 4.39 |
-| 18 | Korean Spicy Fest (Limited Time Only) | 1,179 | 4.36 |
-| 19 | Chinese | 1,132 | 4.24 |
-| 20 | Rice | 1,111 | 4.33 |
-| 21 | Veg Pizza | 1,085 | 4.11 |
-| 22 | Burgers and Wraps | 1,084 | 4.41 |
-| 23 | Protein Plus and Burgers with Millet Bun | 964 | 4.40 |
-| 24 | Freshly Scooped Tubs | 952 | 4.41 |
-| 25 | Value Meals (Save Upto 47%) | 940 | 4.33 |
-| 26 | South Indian | 906 | 4.28 |
-| 27 | Soup | 862 | 4.31 |
-| 28 | Kings Collection (Premium Burgers) | 860 | 4.36 |
-| 29 | Noodles | 859 | 4.26 |
-| 30 | Non Veg Pizza | 847 | 4.24 |
-| 31 | Breakfast | 838 | 4.38 |
-| 32 | Pasta | 833 | 4.17 |
-| 33 | Sides and Dips | 792 | 4.33 |
-| 34 | Namkeen | 761 | 4.51 |
-| 35 | NEW Whopper Deluxe (Reg. Size Bun) | 755 | 4.25 |
-| 36 | Soups | 746 | 4.31 |
+Bengaluru was the top city by a wide margin at 20.1K orders, almost double the next
+city. Karnataka was also the top state for revenue at 5.46M INR.
 
-### Total Orders by Price Range
-| Price Range (INR) | Total Orders |
-|-------------------|-------------|
-| 100 to 199 | 58,279 |
-| 200 to 299 | 54,026 |
-| 300 to 399 | 30,592 |
-| Under 100 | 26,795 |
-| 500 and above | 15,500 |
-| 400 to 499 | 12,209 |
+**What this means:** The business is very top heavy on one market. Bengaluru and
+Karnataka carry an outsized share, so they are the safest place to protect and the
+biggest risk if demand there slips. The cities ranked two through ten are tightly
+bunched near 10K each, which shows a healthy second tier worth growing.
 
-### Rating Distribution
-| Rating | Number of Orders |
-|--------|-----------------|
-| 4.40 | 85,642 |
-| 4.30 | 13,698 |
-| 4.60 | 10,840 |
-| 4.50 | 9,946 |
-| 5.00 | 9,401 |
-| 4.70 | 9,089 |
-| 4.80 | 8,809 |
-| 4.20 | 8,214 |
-| 4.10 | 7,619 |
-| 4.90 | 5,713 |
-| 4.00 | 5,346 |
-| 3.90 | 4,021 |
-| 3.80 | 3,966 |
-| 3.70 | 2,711 |
-| 3.60 | 2,010 |
-| 3.50 | 1,883 |
-| 3.40 | 1,340 |
-| 3.30 | 1,278 |
-| 3.20 | 996 |
-| 3.00 | 740 |
-| 3.10 | 701 |
-| 2.80 | 552 |
-| 2.90 | 549 |
-| 2.70 | 436 |
-| 2.60 | 316 |
-| 2.50 | 283 |
-| 2.00 | 247 |
-| 2.40 | 234 |
-| 2.30 | 227 |
-| 2.20 | 209 |
-| 2.10 | 161 |
-| 1.50 | 64 |
-| 1.80 | 55 |
-| 1.90 | 50 |
-| 1.60 | 30 |
-| 1.70 | 25 |
+### 4.3 Food Performance
+> 📊 *See the Food Performance dashboard in `/visuals`*
+
+McDonald's and KFC were the two busiest restaurants, neck and neck around 13K orders
+each. Veg Fried Rice was the single most ordered dish, and most orders landed in the
+100 to 299 INR price band.
+
+**What this means:** A small group of big quick service brands drives the bulk of
+orders, so these partners matter most. On price, customers clearly favour the mid
+range, which lines up with the 268.50 INR average dish price, so that band is the
+sweet spot for deals and combos.
+
+### 4.4 Ratings
+> 📊 *See the Ratings breakdown in `/visuals`*
+
+Ratings lean strongly positive. A 4.4 score alone appeared on 85.6K orders, and the
+large majority of orders sat at 4.0 or higher.
+
+**What this means:** Customer satisfaction is high and consistent, so quality is not
+the problem to solve here. The opportunity is about reach and volume rather than
+fixing a bad experience.
 
 ---
 
-## Summary
-Across 197,401 orders in 2025, demand stayed steady through the year with a
-gentle lift on weekends. Bengaluru and the state of Karnataka led the country
-in both orders and revenue. Big quick service brands like McDonald's and KFC
-drove the most orders, most spending landed in the 100 to 299 INR range, and
-customer ratings were strongly positive with 4.4 being by far the most common
-score.
+## 5. Recommendations
+
+1. **Protect Bengaluru and Karnataka.** They drive the most orders and revenue, so
+they deserve the most attention and the strongest partner support.
+2. **Grow the second tier cities.** Mumbai, Hyderabad, Jaipur, and the rest are
+close together near 10K orders, so a small push could lift the whole group.
+3. **Lean into weekends.** Saturday and Sunday are the busiest days, so that is
+where promotions and delivery capacity will pay off most.
+4. **Focus deals on the mid price band.** Most orders sit in the 100 to 299 INR
+range, so combos and offers priced there will match what people already buy.
+5. **Keep the top brands close.** A few large chains drive most of the volume, so
+strong relationships with them protect the core of the business.
+
+---
+
+## 6. Conclusion
+
+Across 197,401 orders in 2025, Swiggy demand was steady through the year with a lift
+on weekends. Bengaluru and Karnataka led the country in both orders and revenue, a
+small set of big brands drove most of the volume, most spending landed in the mid
+price range, and customer ratings were strongly positive.
+
+The clearest ways to grow are to protect the leading market, nurture the tightly
+packed second tier of cities, and time promotions around weekends and the mid price
+band. The dashboards make it easy to keep an eye on all of these trends in one place.
