@@ -1,6 +1,6 @@
 # 🍽️ Swiggy Restaurant Sales Analysis
 
-> **📖 [Read the Full Report Here](Swiggy_Restaurant%20Doc.md)** ← Start here!
+> **📖 [Read the Full Report Here](Swiggy%20Restaurant%20Summary%20Report.md)** ← Start here!
 
 A deep dive into **Swiggy order data across Indian cities** using SQL Server and Python,
 turning 197,402 raw rows into a clean star schema and business ready insights.
