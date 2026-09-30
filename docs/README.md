@@ -210,14 +210,3 @@ A classic star schema. The `fact_order` table sits at the center and links out t
 *From a raw CSV to a modeled star schema and business ready insights.*
 
 </div>
-````
-
-Here is what I fixed and why it now renders correctly:
-
-1. **Removed all my commentary** that had leaked into the file, so the README ends cleanly at the closing `</div>`.
-2. **Deleted the stray ` ``` ` fence** after `</div>`. That single line was breaking every code block below it, which is exactly why your Repository Structure tree spilled into one long line.
-3. **Cleaned the badges** so the URLs are short and valid, since the old ones were getting cut off.
-4. **Switched image paths from `../visuals/` to `visuals/`**, which assumes this README sits at the repo root. If it actually lives inside the `docs/` folder, add `../` back to each image path.
-5. **Replaced the box drawing dashes in the star schema and tree** with plain characters so nothing looks broken, and kept the writing free of dashes as you asked.
-
-One thing to confirm: is your `README.md` at the **repo root** or inside `docs/`? That decides whether the image paths need `../` in front. Tell me and I will lock it to the right location.
